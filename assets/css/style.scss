@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    padding-bottom: 0px!important;
+}
+
+#menubar{
+    text-align: center;
+    width: 100%;
+}
+
+#menubar ul{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+
+#menubaritems li{
+    display: inline;
+}
+
+#menubaritems a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: #111 0px 0px 10px;
+    color: #fff;
+    width: 25%;
+    text-align: center;
+}
+#menubaritems a.active{
+    background: #212121;
+}
