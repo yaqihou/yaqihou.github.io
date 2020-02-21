@@ -28,6 +28,20 @@
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
+
+          <!-- Create Menubar -->
+          <div id="menubar">
+              <ul id="menubaritems">
+                  {% for item in site.data.menubar.docs %}
+                      {% if item.title ==  page.title %}
+                      <li><a href="{{ item.url }}" class="active">{{ item.title }}</a></li>
+                      {% else %}
+                      <li><a href="{{ item.url }}" class="inactive">{{ item.title }}</a></li>
+                      {% endif %}
+                  {% endfor %}
+              </ul>
+          </div>
+
         </header>
     </div>
 
