@@ -3,7 +3,6 @@ layout: main
 title: Publications
 mathjax: true
 ---
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 # Publications
 
@@ -15,6 +14,6 @@ mathjax: true
 
   **Y Hou**, AJ Czejdo, J DeChant, CR Shill, JE Drut,   *Physical Review A 100 (6), 063627*
 
-- **Thermal conductivity and thermoelectric performance of $\mathrm{Sr}_x\mathrm{Ba}_{1-x}\mathrm{Nb}_2\mathrm{O}_6$ ceramics at high temperatures**
+- **Thermal conductivity and thermoelectric performance of $$\mathrm{Sr}_x\mathrm{Ba}_{1-x}\mathrm{Nb}_2\mathrm{O}_6$$ ceramics at high temperatures**
 
   Y Li, J Liu, **Y Hou**, Y Zhang, Y Zhou, W Su, Y Zhu, J Li, C Wang, *Scripta Materialia 109, 80-83*
