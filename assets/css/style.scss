@@ -7,6 +7,11 @@ header {
     padding-bottom: 0px!important;
 }
 
+#project_tagline{
+    padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
+}
+
 #menubar{
     text-align: center;
     width: 100%;
@@ -28,9 +33,23 @@ header {
     font-weight: 700;
     text-shadow: #111 0px 0px 10px;
     color: #fff;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
+
+#menubaritems a:hover{
+    text-decoration: none;
+    background: #212121;
+}
+
 #menubaritems a.active{
     background: #212121;
+}
+
+hr.divider {
+  margin-top: 1px!important;
+  margin-bottom: 12px;
+  background: none!important;
+  border-bottom: 2px solid #121212;
+  // margin: -50px auto 10px; 
 }
