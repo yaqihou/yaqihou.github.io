@@ -11,4 +11,6 @@ I am a PhD candidate in Physics at UNC-Chapel Hill. Currently, I am in the 4th y
 
 Besides physics, machine learning is another field that of my interest. I am currently focusing on the interdisciplinary research of machine learning and physics.
 
-More information about me could be found on this [page](/aboutme) or my [LinkedIn](https://www.linkedin.com/in/yaqi-hou/) profile. A copy of my CV is shown [here](CV/Yaqi-Hou-CV.pdf). Some of my personal projects could also be found on [GitHub](https://github.com/yaqihou) (and a category with short summary of each project [here](/github_intro)) while most codes related to my research are served privately within the group.
+More information about me could be found on this [page](/aboutme) or my [LinkedIn](https://www.linkedin.com/in/yaqi-hou/) profile. A copy of my CV is shown [here](CV/Yaqi-Hou-CV.pdf). Some of my personal projects could also be found on [GitHub](https://github.com/yaqihou) 
+<!-- (and a category with short summary of each project [here](/github_intro)) -->
+while most codes related to my research are served privately within the group.
