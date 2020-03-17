@@ -6,9 +6,13 @@ mathjax: true
 
 # Publications
 
+- **Virial coefficients of trapped and un-trapped three-component fermions with three-body forces in arbitrary spatial dimensions**
+
+  A. J. Czejdo, J. E. Drut, **Y. Hou**, J. R. McKenney, K. J. Morrell, *arXiv:2003.04958*
+
 - **Semiclassical approximation to virial coefficients beyond the leading order**
 
-  **Y Hou**, JE Drut, *arXiv preprint arXiv:1908.00174*
+  **Y Hou**, JE Drut, *arXiv:1908.00174*
 
 - **Leading-and next-to-leading-order semiclassical approximation to the first seven virial coefficients of spin-1/2 fermions across spatial dimensions**
 
