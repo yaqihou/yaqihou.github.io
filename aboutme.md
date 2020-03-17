@@ -67,6 +67,6 @@ In Fortran, I use **OpenMP** and **MPI** for parallel computation on cloud clust
 
 I am an daily user of **Emacs**, which powers most of my work and life, so I have built several packages in **E-Lisp**. I work under **Linux** environment everyday and also have limited experience in server maintaince. On Linux, using Awesome WM offers me chances to config and write few packages in **Lua**.
 
-I am also proficient with **LaTeX**, which, together with _org-mode_, powers all my writings and presentations, as well as **Git** to organize all my projects.
+I am proficient in **LaTeX**: together with [org-mode](https://orgmode.org/), they power all my writings and presentations. I am experienced in **Git** to organize all my notes and projects.
 
 <!-- ## Awards -->

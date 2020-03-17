@@ -8,7 +8,7 @@ mathjax: true
 
 - **Virial coefficients of trapped and un-trapped three-component fermions with three-body forces in arbitrary spatial dimensions**
 
-  A. J. Czejdo, J. E. Drut, **Y. Hou**, J. R. McKenney, K. J. Morrell, *arXiv:2003.04958*
+  AJ Czejdo, JE Drut, **Y Hou**, JR McKenney, KJ Morrell, *arXiv:2003.04958*
 
 - **Semiclassical approximation to virial coefficients beyond the leading order**
 
