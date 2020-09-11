@@ -16,7 +16,7 @@ mathjax: true
 
 - **Semiclassical approximation to virial coefficients beyond the leading order**<br/>
   **Y. Hou**, J. E. Drut, *arXiv:1908.00174*<br/>
-  arXiv: [arXiv:1908.00174v1](http://arxiv.org/abs/1908.00174v1)
+  DOI: [10.1103/PhysRevA.102.033319](https://doi.org/10.1103/PhysRevA.102.033319)
 
 - **Leading-and next-to-leading-order semiclassical approximation to the first seven virial coefficients of spin-1/2 fermions across spatial dimensions**<br/>
   **Y. Hou**, A. J. Czejdo, J. DeChant, C. R. Shill, J. E. Drut, *Physical Review A 100 (6), 063627*<br/>
