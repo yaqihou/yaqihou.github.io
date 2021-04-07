@@ -10,6 +10,8 @@ permalink: /aboutme
 
 - PhD candidate in Physics, **University of North Carolina - Chapel Hill**, _Aug 2016_ to _May 2021_ 
 
+- Visiting Student in Physics, **Duke University**, *Aug 2013* to *Aug 2014*
+
 - B.S in Physics, **Shandong University**, *Sep 2011* to *Jun 2015*
 
 ## Research Interest
@@ -21,6 +23,7 @@ Also I am exploring the direction that bring into physics the ideas from machine
 ## Teaching Experience
 
 I have been Graduate Teaching Assistant for both undergraduate courses and graduate courses including:
+
 
 - PHYS 114 - General Physics for non-physics major, led workshop as *Teaching Assistant*
 
@@ -65,7 +68,7 @@ I am proficient in **Python** and **Fortran**, which are the major tool in my da
 In Python, I am very familiar with packages like **Numpy**, **Scipy** as well as **MatPlotLib**. I have some experience with **multiprocessing** and **Cython**. To explore the machine learning, I started to learn **pyTorch** about two months ago. Also used in several of my side projects are **Qt** (PyQt5), **sqlite3** and **pandas**.
 In Fortran, I use **OpenMP** and **MPI** for parallel computation on cloud cluster and am familiar with a set of **BLAS** and **FFTW** APIs.
 
-I am an daily user of **Emacs**, which powers most of my work and life, so I have built several packages in **E-Lisp**. I work under **Linux** environment everyday and also have limited experience in server maintaince. On Linux, using Awesome WM offers me chances to config and write few packages in **Lua**.
+I am a daily user of **Emacs**, which powers most of my work and life. I have built a few tiny packages in **E-Lisp** (though never published them on www). **Linux** is my main working environment, together with the powerful [Awesome WM](https://awesomewm.org/). The latter offers me chances to config and code packages in **Lua**.
 
 I am proficient in **LaTeX**: together with [org-mode](https://orgmode.org/), they power all my writings and presentations. I am experienced in **Git** to organize all my notes and projects.
 
