@@ -6,8 +6,12 @@ mathjax: true
 
 # Publications
 
+- **Pairing and the spin susceptibility of the polarized unitary Fermi gas in the normal phase**<br/>
+  L. Rammelmüller, **Y. Hou**, J. E. Drut, J. Braun<br/>
+  arXiv:2102.05911 (2021), Phys. Rev. A accepted, in production
+
 - **Fourth- and Fifth-Order Virial Coefficients from Weak Coupling to Unitarity**<br/>
-  **Y. Hou** and J.  E. Drut, *Phys. Rev. Lett. 125, 050403*<br/>
+  **Y. Hou** and J.  E. Drut, *Phys. Rev. Lett. 125, 050403* (Editor's Suggestion)<br/>
   DOI: [10.1103/PhysRevLett.125.050403](https://doi.org/10.1103/PhysRevLett.125.050403)
 
 - **Virial coefficients of trapped and un-trapped three-component fermions with three-body forces in arbitrary spatial dimensions**<br/>
@@ -21,6 +25,21 @@ mathjax: true
 - **Leading-and next-to-leading-order semiclassical approximation to the first seven virial coefficients of spin-1/2 fermions across spatial dimensions**<br/>
   **Y. Hou**, A. J. Czejdo, J. DeChant, C. R. Shill, J. E. Drut, *Physical Review A 100 (6), 063627*<br/>
   DOI: [10.1103/PhysRevA.100.063627](https://doi.org/10.1103/PhysRevA.100.063627)
+
+- **TEST_POSITIVE at W-NUT 2020 Shared Task-3: Joint Event Multi-task Learning for Slot Filling in Noisy Text**<br/>
+  C. Chen, C. Y. Huang, **Y. Hou**, Y. Shi, E. Dai and J. Wang.<br/>
+  In Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT) at EMNLP (2020) <br/>
+  DOI: [10.18653/v1/2020.wnut-1.76](http://dx.doi.org/10.18653/v1/2020.wnut-1.76)
+## Presentations
+
+- From few to many: thermodynamics with up to seventh-order virial coefficients<br/>
+  Y. Hou and J. E. Drut, APS April Meeting 2021 S13.00007
+
+- Fourth- and Fifth-Order Virial Coefficients from Weak Coupling to Unitarity<br/>
+  Y. Hou and J. E. Drut, APS March Meeting 2021 M21.00008
+
+- Fourth- and Fifth-Order Virial Coefficients from Weak Coupling to Unitarity<br/>
+  Y. Hou and J. E. Drut, Southeastern Section of the APS (SESAPS) 2020 F05.00002 
 
 ## Undergraduate Works
 
