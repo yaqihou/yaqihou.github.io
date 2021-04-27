@@ -7,8 +7,8 @@ mathjax: true
 # Publications
 
 - **Pairing and the spin susceptibility of the polarized unitary Fermi gas in the normal phase**<br/>
-  L. Rammelmüller, **Y. Hou**, J. E. Drut, J. Braun<br/>
-  arXiv:2102.05911 (2021), Phys. Rev. A accepted, in production
+  L. Rammelmüller, **Y. Hou**, J. E. Drut, J. Braun, *Phys. Rev. A 103, 043330*<br/>
+  DOI: [10.1103/PhysRevA.103.043330](https://doi.org/10.1103/PhysRevA.103.043330)
 
 - **Fourth- and Fifth-Order Virial Coefficients from Weak Coupling to Unitarity**<br/>
   **Y. Hou** and J.  E. Drut, *Phys. Rev. Lett. 125, 050403* (Editor's Suggestion)<br/>
