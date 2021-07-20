@@ -18,7 +18,7 @@ Below is a list of links for more details about me:
 
 - [about me](/aboutme) page on this website
 - My [LinkedIn](https://www.linkedin.com/in/yaqi-hou/) profile
-- My [CV](CV/Yaqi-Hou-CV.pdf)
+- My CV: [Academia](CV/Yaqi-Hou-CV-Academia.pdf) | [Industry](CV/Yaqi-Hou-CV-Industry.pdf)
 - My [GitHub](https://github.com/yaqihou) homepage
 
 And below are about my research:
