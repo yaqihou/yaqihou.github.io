@@ -7,11 +7,11 @@ title: Research (WIP)
 
 My research interests in 
 
-## Thermodynamics Calculation using Automated Algebra Method
+##### Thermodynamics Calculation using Automated Algebra Method
 
-## Dynamic Response Calculation
+##### Dynamic Response Calculation
 
-## Dilute Neutron Matter System
+##### Dilute Neutron Matter System
 
 Dilute neutron matter, as in the crust of a neutron star, belongs to the same universal class as 
 
@@ -20,9 +20,9 @@ Dilute neutron matter, as in the crust of a neutron star, belongs to the same un
 
 As a personal interests
 
-## Quantum Matter Map
+##### Quantum Matter Map
 
-## Enhanced Attention Mechanism using CNN
+##### Enhanced Attention Mechanism using CNN
 
 As an alternative diretion to pursing even-larger-scale deep networks, it is of interests to polish and refine the performance of its basic building block: the attention mechanism.
 
