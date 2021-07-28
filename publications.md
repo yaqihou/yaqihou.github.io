@@ -9,7 +9,8 @@ mathjax: true
 {: reversed="reversed"}
 
 1. **Fourth- and fifth-order virial expansion of harmonically trapped fermions at unitarity**<br/>
-   **<u>Y. Hou</u>**, K. J. Morrell, A. J. Czejdo, J. E. Drut, arXiv:2104.14440
+   **<u>Y. Hou</u>**, K. J. Morrell, A. J. Czejdo, J. E. Drut, *Phys. Rev. Research 3, 033099 *<br/>
+   DOI: [10.1103/PhysRevResearch.3.033099](https://doi.org/10.1103/PhysRevResearch.3.033099)
 
 1. **Pairing and the spin susceptibility of the polarized unitary Fermi gas in the normal phase**<br/>
   L. Rammelmüller, **<u>Y. Hou</u>**, J. E. Drut, J. Braun, *Phys. Rev. A 103, 043330*<br/>
