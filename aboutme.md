@@ -64,12 +64,31 @@ I have been Graduate Teaching Assistant for both undergraduate courses and gradu
 
 ## Technical Skills
 
-I am proficient in **Python** and **Fortran**, which are the major tool in my daily research.
-In Python, I am very familiar with packages like **Numpy**, **Scipy** as well as **MatPlotLib**. I have some experience with **multiprocessing** and **Cython**. To explore the machine learning, I started to learn **pyTorch** about two months ago. Also used in several of my side projects are **Qt** (PyQt5), **sqlite3** and **pandas**.
-In Fortran, I use **OpenMP** and **MPI** for parallel computation on cloud cluster and am familiar with a set of **BLAS** and **FFTW** APIs.
+I am proficient in **Python** and **Fortran**, which are the major tools in
+my daily research.
 
-I am a daily user of **Emacs**, which powers most of my work and life. I have built a few tiny packages in **E-Lisp** (though never published them on www). **Linux** is my main working environment, together with the powerful [Awesome WM](https://awesomewm.org/). The latter offers me chances to config and code packages in **Lua**.
+- In Python, I am very familiar with packages like
+**Numpy**, **Scipy** as well as **MatPlotLib**. I have some experience with
+**multiprocessing** and **Cython**. Regarding the machine learning
+frameworks, I programmed mainly with **pyTorch** but also have some
+experience with **TensorFlow**.
+- In Fortran, I have some experience with
+**OpenMP** and **MPI** for parallel computation on clusters. The
+**AOCL** and **FFTW** are two of the most frequently used libs in my
+research.
+- As part of my personal interests, I also interacts with **Qt** (PyQt5), **sqlite3** and **selenium** frequently.
 
-I am proficient in **LaTeX**: together with [org-mode](https://orgmode.org/), they power all my writings and presentations. I am experienced in **Git** to organize all my notes and projects.
+I have been an **Emacs** user for nearly 8 years, which powers most of my
+work and life. I have built a few tiny packages in **E-Lisp** (though never
+published them on www).
+
+**Linux** is my daily and only working environment: I therefore have some
+experience in **Shell Scipt Programming**. I use [Awesome
+WM](https://awesomewm.org/) because, well, it is really awesome! And thanks to it,
+I also programmed a bunch of widgets in **Lua**. On the clusters, I am familiar with **HTCondor**, which is used in [Open Science Grid (OSG)](https://opensciencegrid.org/)
+
+I am also experienced in **Git** (and all hail to
+[Magit](https://magit.vc/)) and familiar with the workflow on
+[GitHub](https://github.com/yaqihou).
 
 <!-- ## Awards -->

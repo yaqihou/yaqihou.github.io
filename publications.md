@@ -4,7 +4,7 @@ title: Publications
 mathjax: true
 ---
 
-# Publications
+## Publications
 
 {: reversed="reversed"}
 

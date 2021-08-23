@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Research-WIP
+title: Research (WIP)
 ---
 
 # Research in Physics
