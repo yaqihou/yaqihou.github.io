@@ -1,7 +1,43 @@
 ---
 ---
 
+$my_background_darker: #212121;
+$my_background: #303030;
+$my_background_lighter: #373737;
+$my_blue: #007FAE;
+$my_white: #f2f2f2;
+
 @import "{{ site.theme }}";
+
+// Override begin
+body {
+    background: $my_background
+}
+
+#header_wrap {
+  background: $my_background;
+  background: -moz-linear-gradient(top, $my_background_lighter, $my_background);
+  background: -webkit-linear-gradient(top, $my_background_lighter, $my_background);
+  background: -ms-linear-gradient(top, $my_background_lighter, $my_background);
+  background: -o-linear-gradient(top, $my_background_lighter, $my_background);
+  background: linear-gradient(to top, $my_background_lighter, $my_background);
+}
+
+#footer_wrap {
+  background: $my_background;
+}
+
+// Modify below if need wider space
+// .inner {
+//     max-width: 640px;
+// }
+
+
+// Override end
+
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     padding-bottom: 0px!important;
@@ -12,9 +48,16 @@ header {
     margin-bottom: 0px!important;
 }
 
+// --------------------------------------
+// Menubar
+
 #menubar{
     text-align: center;
     width: 100%;
+    // position: fixed;
+    // left: 0;
+    // top: 0;
+    // width: 100%;
 }
 
 #menubar ul{
@@ -25,31 +68,63 @@ header {
 
 #menubaritems li{
     display: inline;
+    border-bottom: 1px solid $my_white;
+    margin: 0 7px;
+}
+
+#menubar {
+    border-bottom: 0px;
 }
 
 #menubaritems li a{
-    padding-left: 10px!important;
-    padding-right: 10px!important;
+    padding: 0 3px!important;
 }
 
 #menubaritems a{
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
-    text-shadow: #111 0px 0px 10px;
-    color: #fff;
+    text-shadow: #000 0px 0px 10px;
+    color: $my_white;
     width: 20%;
     text-align: center;
 }
 
 #menubaritems a:hover{
     text-decoration: none;
-    background: #212121;
+    background: $my_background_darker;
+    border-bottom: 3px solid $my_white;
 }
 
 #menubaritems a.active{
-    background: #212121;
+    background: $my_blue;
+    border-bottom: 3px solid $my_white;
 }
+
+@media screen and (max-width: 480px) {
+    #menubaritems li {
+        display: block!important;
+    }
+
+    #menubaritems a{
+        width: 50%;
+    }
+
+    // Don't change th eborder
+    #menubaritems a:hover{
+        text-decoration: none;
+        background: $my_background_darker;
+        border-bottom: 0px solid $my_white;
+    }
+    
+    #menubaritems a.active{
+        // background: #212121;
+        background: $my_blue;
+        border-bottom: 0px solid $my_white;
+    }
+}
+
+
 
 hr.divider {
   margin-top: 1px!important;
@@ -60,17 +135,21 @@ hr.divider {
   // margin: -50px auto 10px; 
 }
 
-// #main_content h3::before {
-//     display: inline-block;
-//     content: "";
-//     border-bottom: .3rem solid #afafaf;
-//     width: 1.5rem;
-//     margin: 0 .3rem 0 0;
-//     transform: translateY(-50%);
-// }
+header a {
+    color: $my_blue;
+    // border-bottom: 3px solid $my_blue;
+}
 
-#main_content h1::before {
-    background-color: black;
+header a:hover{
+    text-decoration: none;
+    border-bottom: 5px solid $my_blue;
+}
+
+// --------------------------------------
+// Main content
+
+#main_content h2::before {
+    background-color: #111;
     content: '';
     display: inline-block;
     width: 0.5ex;
@@ -79,18 +158,11 @@ hr.divider {
     transform: translateY(15%);
 }
 
-// #main_content h2::before {
-//     // background-color: black;
-//     border: 3px solid black;
-//     content: '';
-//     display: inline-block;
-//     width: 0.2ex;
-//     height: .6em;
-//     // margin: 0 .5rem;
-//     margin-right: .5rem;
-//     transform: translateY(10%);
-// }
 #main_content h2 {
+    background: none;
+}
+
+#main_content h1 {
   // font-size: 28px;
   font-weight: 500;
   letter-spacing: 0;
@@ -98,7 +170,7 @@ hr.divider {
   padding-bottom: 15px;
   position: relative;
 }
-#main_content h2:before {
+#main_content h1:before {
   content: "";
   position: absolute;
   left: 0;
@@ -106,8 +178,9 @@ hr.divider {
   height: 7px;
   width: 55px;
   background-color: #111;
+  z-index: 7;
 }
-#main_content h2::after {
+#main_content h1::after {
   content: "";
   position: absolute;
   left: 0;
@@ -115,7 +188,8 @@ hr.divider {
   height: 3px;
   width: 65%;
   // max-width: 255px;
-  background-color: #333;
+  background-color: #111;
+  z-index: 1;
 }
 
 #main_content h3 {
@@ -153,17 +227,106 @@ details[open] summary::before {
   content:"[-]"; 
   font-family: monospace, monospace;
 }
-// #main_content button{
-//       background: none!important;
-//       border: none;
-//       padding: 0!important;
+
+
+span.mytag{
+    font-size: 55%;
+    vertical-align: middle;
+    color: $my_white;
+    background-color: #3f3f3f;
+    // font-family: "Brush Script MT";//, sans-serif;
+    font-family: monospace, monospace;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    margin-left: .7em;
+    // position: absolute;
+    // transform: translateY(9em);
+}
+
+span.tag_done {
+    // background-color: #00594c // longleaf pine
+    background-color: #228b22 // forest green
+}
+
+span.tag_doing {
+    // background-color: $my_blue // azalea pink
+    background-color: #373af2
+}
+
+span.tag_drop {
+    // background-color: #b87333
+    // background-color: gray
+    // background-color: #9c9384
+    background-color: #848d9c
+}
+
+
+// carolina blue
+#main_content a {
+    color: $my_blue;
+    border-bottom: 2px solid $my_blue;
+}
+
+#main_content a:hover{
+    text-decoration: none;
+    border-bottom: 4px solid $my_blue;
+}
+
+#main_content u {
+    // text-decoration-thickness: 2px;
+    // border-bottom: 3px solid #007FAE;
+}
+
+
+// ---------------------------
+// toc
+// #toc_wrap {
+//     position: absolute;
+//     top: 2rem;
+//     right: 0;
 // }
 
-// .research_item_detail {
-//     display: none;
-//     overflow: hidden;
-// }
+#toc {
+    color: $my_white;
+    background-color: $my_blue;
+    font-size: 22px;
+    text-align: center;
+    //
+    width: 170px;
+    border-radius: 0px 0 5px 5px;
+    //
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rem;
+    float: left;
+    margin: -40px 0 0 0;
+    display: inline-block;
+    z-index: 99;
+}
 
-// .collapsible:hover {
-//   foreground-color: blue;
-// }
+@media screen and (max-width: 480px) {
+    #toc {
+        // margin: -40px 0 0 0;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0rem;
+        float: left;
+    }
+}
+
+#toc #toc_full {
+    display: none;
+    // position: relative;
+    // top: 2rem;
+    z-index: 8;
+    font-size: 16px;
+    text-align: left;
+    background-color:$my_white;
+    border: 1px solid $my_blue;
+    width: 600px;
+    overflow-y: auto; 
+} /* Hide the full TOC by default */
+
+#toc:hover #toc_full{
+  display: block; /* Show it on hover */
+}

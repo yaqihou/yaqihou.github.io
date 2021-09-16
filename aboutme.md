@@ -8,44 +8,38 @@ permalink: /aboutme
 
 ## Education
 
-- PhD in Physics, **University of North Carolina - Chapel Hill**, _Aug 2016_ to _May 2022_ 
+- PhD in Physics, **University of North Carolina - Chapel Hill** <span style="float:right;"> _Aug 2016_ to _May 2022_ </span>
+- Visiting Student in Physics, **Duke University** <span style="float:right;"> *Aug 2013* to *Aug 2014* </span>
+- B.S in Physics, **Shandong University** <span style="float:right;"> *Sep 2011* to *Jun 2015* </span>
 
-- Visiting Student in Physics, **Duke University**, *Aug 2013* to *Aug 2014*
 
-- B.S in Physics, **Shandong University**, *Sep 2011* to *Jun 2015*
+## Fellowship and Awards
+
+- **UNC Dissertation Completion Fellowship** <span style="float:right;">*Aug 2021* - *May 2022*</span>
+  <br>Support tuition, fees and stipends in the last PhD year
+- **UNC Dean’s Graduate Fellowship in the College of Arts & Sciences** <span style="float:right;">*May 2021*</span>
+  <br>Support summer fees, stipends and travel funds
+
 
 ## Research Interest
 
-My interests include improving and developing numerical methods for quantum systems. I have been working on improving conventional Determinant Quantum Monte Carlo for simulating large-scale system as well as developing a new method to calculate virial coefficients.
+My interests include improving and developing numerical methods for quantum
+many-body systems.
 
-Also I am exploring the direction that bring into physics the ideas from machine learning. Currently I am looking into training Neural Network as an estimator to apply inverse of a complicated matricx arising in QMC. Another interesting topic is to investigate the possibility and usability to apply knowlegde graph in physics.
+I have been working on improving conventional **Determinant Quantum Monte
+Carlo** for simulating large-scale system as well as developing a new
+method coined as **Automated Algebra Method** to calculate virial
+coefficients.
 
-## Teaching Experience
-
-I have been Graduate Teaching Assistant for both undergraduate courses and graduate courses including:
-
-
-- PHYS 114 - General Physics for non-physics major, led workshop as *Teaching Assistant*
-
-  <!-- (Fall 2016, Summer 2017) -->
-
-- PHYS 118 - General Physics for physics major, led workshop as *Teaching Assistant*
-
-  <!-- (Spring 2017 - Spring 2018) -->
-
-- PHYS 331 - Introductory numerical techniques in physcis, led lab session as *Teaching Assistant*
-
-  <!-- (Fall 2018) -->
-
-- PhD qualification exam recitation - statistieal physics, led recitation session as *Instructor*
-
-  <!-- (Spring 2019) -->
-
-
+I am also exploring machine-learning-based techniques in the context of
+quantum many-body systems. Currently I am looking into training Neural Network as an estimator to
+apply inverse of a complicated matricx arising in QMC. Another interesting
+topic is to investigate the possibility and usability to apply knowlegde
+graph in physics.
 
 ## Research Experience
 
-See [research](/research) for more detail, or click the [+] button to expand the details panel.
+See [research](/research) for more details, or click the [+] button to expand the details panel.
 
 - <details> <summary> <strong>Automated-algebra method for virial coefficient calculation</strong>
   <span style="float:right;"> [<em>Aug, 2019 - Present</em>] </span>
@@ -78,6 +72,20 @@ See [research](/research) for more detail, or click the [+] button to expand the
   </summary>
      some details 
   </details>
+
+## Teaching Experience
+
+I have been Graduate Teaching Assistant for both undergraduate courses and graduate courses including:
+
+
+- PHYS 114 - General Physics for non-physics major, led workshop as **Teaching Assistant**
+  <!-- (Fall 2016, Summer 2017) -->
+- PHYS 118 - General Physics for physics major, led workshop as **Teaching Assistant**
+  <!-- (Spring 2017 - Spring 2018) -->
+- PHYS 331 - Introductory numerical techniques in physcis, led lab session and gave mini-lectures as **Teaching Assistant**
+  <!-- (Fall 2018) -->
+- PhD qualification exam recitation - statistieal physics, led recitation session as **Instructor**
+  <!-- (Spring 2019) -->
 
 ## Technical Skills
 
