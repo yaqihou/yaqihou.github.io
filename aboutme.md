@@ -8,7 +8,7 @@ permalink: /aboutme
 
 ## Education
 
-- PhD candidate in Physics, **University of North Carolina - Chapel Hill**, _Aug 2016_ to _May 2021_ 
+- PhD in Physics, **University of North Carolina - Chapel Hill**, _Aug 2016_ to _May 2022_ 
 
 - Visiting Student in Physics, **Duke University**, *Aug 2013* to *Aug 2014*
 
@@ -45,22 +45,39 @@ I have been Graduate Teaching Assistant for both undergraduate courses and gradu
 
 ## Research Experience
 
-- **Automated-algebra method for virial coefficient calculation**
-  <span style="float:right;"> [*Aug, 2019 - Present*] </span>
+See [research](/research) for more detail, or click the [+] button to expand the details panel.
+
+- <details> <summary> <strong>Automated-algebra method for virial coefficient calculation</strong>
+  <span style="float:right;"> [<em>Aug, 2019 - Present</em>] </span>
+  </summary>
+     some details 
+  </details>
 
   <!-- Develop a new semi-analytical method to calculate virial coefficients of interacting Fermi system.  -->
   
-- **Energy of Bosonic Droplets from Quantum Noise**
-  <span style="float:right;"> [*Jul, 2018 - May, 2019*] </span>
+- <details> <summary> <strong>Energy of Bosonic Droplets from Quantum Noise</strong>
+  <span style="float:right;"> [<em>Jul, 2018 - May, 2019</em>] </span>
+  </summary>
 
-- **Thermaldynamics of Quantum Matter at Finite Temperature**
-  <span style="float:right;"> [*May, 2017 - Dec, 2018*] </span>
+     some details 
+  </details>
+- <details> <summary> <strong>Thermaldynamics of Quantum Matter at Finite Temperature</strong>
+  <span style="float:right;"> [<em>May, 2017 - Dec, 2018</em>] </span>
+  </summary>
+     some details 
+  </details>
 
-- **Numerical Simulation of Acoustic Field**
-  <span style="float:right;"> [*Mar, 2015 - Jun, 2015*] </span>
+- <details> <summary> <strong>Numerical Simulation of Acoustic Field</strong>
+  <span style="float:right;"> [<em>Mar, 2015 - Jun, 2015</em>] </span>
+  </summary>
+     some details 
+  </details>
 
-- **Flow of Granular Material in 2D Hopper**
-  <span style="float:right;"> [*Sep, 2013 - May, 2014*] </span>
+- <details> <summary> <strong>Flow of Granular Material in 2D Hopper</strong>
+  <span style="float:right;"> [<em>Sep, 2013 - May, 2014</em>] </span>
+  </summary>
+     some details 
+  </details>
 
 ## Technical Skills
 

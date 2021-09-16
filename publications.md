@@ -4,7 +4,9 @@ title: Publications
 mathjax: true
 ---
 
-## Publications
+# Publications
+
+<!-- ## PhD Publications  -->
 
 {: reversed="reversed"}
 
@@ -32,12 +34,12 @@ mathjax: true
   **<u>Y. Hou</u>**, A. J. Czejdo, J. DeChant, C. R. Shill, J. E. Drut, *Physical Review A 100 (6), 063627*<br/>
   DOI: [10.1103/PhysRevA.100.063627](https://doi.org/10.1103/PhysRevA.100.063627)
 
+
 1. **TEST_POSITIVE at W-NUT 2020 Shared Task-3: Joint Event Multi-task Learning for Slot Filling in Noisy Text**<br/>
   C. Chen, C. Y. Huang, **<u>Y. Hou</u>**, Y. Shi, E. Dai and J. Wang.<br/>
-  In Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT) at EMNLP (2020) <br/>
+  In Proceedings of the Sixth Workshop on Noisy User-generated Text at EMNLP (2020) <br/>
   DOI: [10.18653/v1/2020.wnut-1.76](http://dx.doi.org/10.18653/v1/2020.wnut-1.76)
-
-
+  
 
 1. **Thermal conductivity and thermoelectric performance of $$\mathrm{Sr}_x\mathrm{Ba}_{1-x}\mathrm{Nb}_2\mathrm{O}_6$$ ceramics at high temperatures**<br/>
   Y. Li, J. Liu, **<u>Y. Hou</u>**, Y. Zhang, Y. Zhou, W. Su, Y. Zhu, J. Li, C. Wang, *Scripta Materialia 109, 80-83*<br/>
@@ -45,7 +47,7 @@ mathjax: true
   *(Undergraduate Works)*
 
 
-## Presentations
+# Presentations
 
 1. From few to many: thermodynamics with up to seventh-order virial coefficients<br/>
   Y. Hou and J. E. Drut, APS April Meeting 2021 S13.00007
