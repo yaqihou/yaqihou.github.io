@@ -6,6 +6,7 @@ $my_background: #303030;
 $my_background_lighter: #373737;
 $my_blue: #007FAE;
 $my_white: #f2f2f2;
+$my_white_darker: #e7e7e7;
 
 @import "{{ site.theme }}";
 
@@ -68,7 +69,7 @@ header {
 
 #menubaritems li{
     display: inline;
-    border-bottom: 1px solid $my_white;
+    // border-bottom: 1px solid $my_white;
     margin: 0 7px;
 }
 
@@ -286,6 +287,14 @@ span.tag_drop {
 //     right: 0;
 // }
 
+#toc_wrap {
+    position: absolute;
+    height:100%;
+    width: 100%;
+    // top: 0;
+    // left: 0;
+}
+
 #toc {
     color: $my_white;
     background-color: $my_blue;
@@ -295,13 +304,16 @@ span.tag_drop {
     width: 170px;
     border-radius: 0px 0 5px 5px;
     //
+    margin: -40px 0 0 0;
     position: -webkit-sticky;
     position: sticky;
     top: 0rem;
+    left: 0rem;
     float: left;
-    margin: -40px 0 0 0;
-    display: inline-block;
+    // display: inline;
     z-index: 99;
+    //
+    // height: 30px;
 }
 
 @media screen and (max-width: 480px) {
@@ -316,17 +328,24 @@ span.tag_drop {
 
 #toc #toc_full {
     display: none;
-    // position: relative;
+    // display: block; // debug
+    position: relative;
+    float: left;
     // top: 2rem;
+    margin-top: 0px;
     z-index: 8;
     font-size: 16px;
     text-align: left;
-    background-color:$my_white;
+    background-color: $my_white_darker;
+    box-shadow: 2px 4px $my_background_lighter;
     border: 1px solid $my_blue;
     width: 600px;
-    overflow-y: auto; 
 } /* Hide the full TOC by default */
 
 #toc:hover #toc_full{
-  display: block; /* Show it on hover */
+  display: inline-block; /* Show it on hover */
+}
+
+#toc_full #markdown-toc {
+    margin-left: 0px;
 }
