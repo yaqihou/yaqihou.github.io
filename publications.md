@@ -49,11 +49,13 @@ mathjax: true
 
 # Presentations
 
+{: reversed="reversed"}
+
 1. **From few to many: thermodynamics with up to seventh-order virial coefficients**<br/>
-  Y. Hou and J. E. Drut, APS April Meeting 2021 S13.00007
+  Y. Hou and J. E. Drut, APS April Meeting 2021 S13.00007, *Apr 19, 2021*
 
 1. **Fourth- and Fifth-Order Virial Coefficients from Weak Coupling to Unitarity**<br/>
-  Y. Hou and J. E. Drut, APS March Meeting 2021 M21.00008
+  Y. Hou and J. E. Drut, APS March Meeting 2021 M21.00008, *Mar 17, 2021*
 
 1. **Fourth- and Fifth-Order Virial Coefficients from Weak Coupling to Unitarity**<br/>
-  Y. Hou and J. E. Drut, Southeastern Section of the APS (SESAPS) 2020 F05.00002 
+  Y. Hou and J. E. Drut, Southeastern Section of the APS 2020 F05.00002, *Nov 05, 2020*
