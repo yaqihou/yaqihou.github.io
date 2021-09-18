@@ -17,13 +17,6 @@ University, China in 2015.
 Below is a list of links for more details about me:
 
 - [About me](/aboutme) page on this website
-- My [LinkedIn](https://www.linkedin.com/in/yaqi-hou/) profile
-- My CV: [Academia](CV/Yaqi-Hou-CV-Academia.pdf) \| [Industry](CV/Yaqi-Hou-CV-Industry.pdf)
-- My [GitHub](https://github.com/yaqihou) homepage
-
-You can find more about my research profile from:
-
-- [Publication List](/publications) on this website
-- [ORCID](https://orcid.org/0000-0002-4810-4613) profile
-- [Google Scholar](https://scholar.google.com/citations?user=PUZlPc8AAAAJ&hl=en) profile
-- [Research Gate](https://www.researchgate.net/profile/Yaqi-Hou-3) profile
+- CV: [Academia](CV/Yaqi-Hou-CV-Academia.pdf) \| [Industry](CV/Yaqi-Hou-CV-Industry.pdf)
+- Website: [LinkedIn](https://www.linkedin.com/in/yaqi-hou/) \| [GitHub](https://github.com/yaqihou)
+- Research: [Publication List](/publications) \| [ORCID](https://orcid.org/0000-0002-4810-4613) \| [Google Scholar](https://scholar.google.com/citations?user=PUZlPc8AAAAJ&hl=en) \| [Research Gate](https://www.researchgate.net/profile/Yaqi-Hou-3)
