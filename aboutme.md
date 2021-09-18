@@ -39,12 +39,14 @@ graph in physics.
 
 ## Research Experience
 
-See [research](/research) for more details, or click the [+] button to expand the details panel.
+See [research](/research) for more details, also click item to expand the details panel.
 
 - <details> <summary> <strong>Automated-algebra method for virial coefficient calculation</strong>
   <span style="float:right;"> [<em>Aug, 2019 - Present</em>] </span>
   </summary>
-     some details 
+      <div class="details" markdown="1">
+placeholder WIP 
+     </div>
   </details>
 
   <!-- Develop a new semi-analytical method to calculate virial coefficients of interacting Fermi system.  -->
@@ -52,25 +54,32 @@ See [research](/research) for more details, or click the [+] button to expand th
 - <details> <summary> <strong>Energy of Bosonic Droplets from Quantum Noise</strong>
   <span style="float:right;"> [<em>Jul, 2018 - May, 2019</em>] </span>
   </summary>
-
-     some details 
+      <div class="details" markdown="1">
+placeholder WIP 
+     </div>
   </details>
 - <details> <summary> <strong>Thermaldynamics of Quantum Matter at Finite Temperature</strong>
   <span style="float:right;"> [<em>May, 2017 - Dec, 2018</em>] </span>
   </summary>
-     some details 
+      <div class="details" markdown="1">
+placeholder WIP 
+     </div>
   </details>
 
 - <details> <summary> <strong>Numerical Simulation of Acoustic Field</strong>
   <span style="float:right;"> [<em>Mar, 2015 - Jun, 2015</em>] </span>
   </summary>
-     some details 
+      <div class="details" markdown="1">
+placeholder WIP 
+     </div>
   </details>
 
 - <details> <summary> <strong>Flow of Granular Material in 2D Hopper</strong>
   <span style="float:right;"> [<em>Sep, 2013 - May, 2014</em>] </span>
   </summary>
-     some details 
+      <div class="details" markdown="1">
+placeholder WIP 
+     </div>
   </details>
 
 ## Teaching Experience

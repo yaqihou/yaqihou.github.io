@@ -149,7 +149,7 @@ header a:hover{
 // --------------------------------------
 // Main content
 
-#main_content h2::before {
+#main_content h2:before {
     background-color: #111;
     content: '';
     display: inline-block;
@@ -181,7 +181,7 @@ header a:hover{
   background-color: #111;
   z-index: 7;
 }
-#main_content h1::after {
+#main_content h1:after {
   content: "";
   position: absolute;
   left: 0;
@@ -205,29 +205,38 @@ header a:hover{
     margin-left: .8rem;
 }
 
-#main_content p {
+#main_content > p {
     margin-left: .8rem;
 }
 
-#main_content ul {
+#main_content > ul {
     margin-left: .8rem;
 }
-
 
 
 // Remove the button from details
 summary {list-style: none}
 summary::-webkit-details-marker {display: none; }
 
-details summary::before { 
-  content:"[+]"; 
-  font-family: monospace, monospace;
+details:hover, details:focus {
+  background: lightgray;
 }
 
-details[open] summary::before { 
-  content:"[-]"; 
-  font-family: monospace, monospace;
+details div.details{
+    border-left: 2px solid #333;
 }
+details div.details p{
+    margin-left: .8rem;
+}
+// details summary:before { 
+//   content:"[+]"; 
+//   font-family: monospace, monospace;
+// }
+
+// details[open] summary:before { 
+//   content:"[-]"; 
+//   font-family: monospace, monospace;
+// }
 
 
 span.mytag{
@@ -291,11 +300,13 @@ span.tag_drop {
     position: absolute;
     height:100%;
     width: 100%;
+    pointer-events: none;
     // top: 0;
     // left: 0;
 }
 
 #toc {
+    pointer-events: auto;
     color: $my_white;
     background-color: $my_blue;
     font-size: 22px;
@@ -352,6 +363,9 @@ span.tag_drop {
 
 // -------------------------
 // image
+figure.myimage {
+    margin: 0 7px 0 3px; 
+}
 figure.myimage img {
     margin: 0px;
     border: 0px;
@@ -361,5 +375,5 @@ figure.myimage figcaption {
     font-style: italic;
     color: gray;
     margin-top: -10px;
-    text-align: right;
+    padding: 0 5px;
 }
