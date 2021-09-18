@@ -19,21 +19,87 @@ tag_undergrad: <span class="mytag tag_drop">undergraduate</span>
 
 <div>
 
-During my PhD years, I explored many projects in both
-<strong>physics</strong> and <strong>computer science</strong>. Some of
-them works and successfully materilized as publications or reports, but
-more, if not most, of them ended up as internal notes, unpublished (and may
-never will be) manuscripts, or just sunk under layers and layers of
-folders. Even so, the ideas or the intermediate results are sometime
-interesting and may deserve some sunlight.
+<p style="margin-left: 0!important;" markdown="1"> During my PhD years, I
+explored many projects in both <strong>physics</strong> and
+<strong>computer science</strong>. My main research focus is on the
+numerical simulation of quantum many-body system, using both the
+conventional stochastic methods and a novel semi-analytical method
+developed by our group. </p>
 
-<br>
-<br>
+<p style="margin-left: 0!important;" markdown="1">Also, as a personal
+interest, I opened several side projects in computer science, mainly on the
+Machine Learning (ML), especially the methods/models related to **Natural
+Language Processing** (NLP), such as Transformer and BERT.</p>
 
-Therefore, here are a brief list of those worthnoting projects , no matter
-if they are published or unpublished, succe. Each of them is given a color
-tag to indicate their status. And you can also use the Table of Contents
-tab on top for easier navigation.
+<div style="margin-left: 0!important;">
+<p style="margin-left: 0!important;">My current research interest is can be categorized as two directions [Click for more details]:</p>
+
+<ol>
+<li>
+<details>
+<summary>
+
+Keep working on the home-developed semi-analytical method to generalize to
+other systems and apply for more complicated observables.
+
+</summary>
+<div class="details" markdown="1">
+
+{:style="list-style-type: upper-alpha; margin-left: 10px; margin-top: 10px;"}
+1. Incorporate more realistic interactions beyond the contact interaction
+  to capture the corrections from the finite effective range, which is
+  essential for the systems such as neutron matter.
+2. Further develop the formalism for more complicated observables:
+  + The near-term goals include the **one- and two-body correlation functions**,
+    which are relevant to the quantities like the **momentum distribution**
+    and the **static structure factor**.
+  + The mid-term goals are to include time evolution operator to
+    investigate dynamic properties, such as the **quantum quench**
+    process.
+  + In long term, I aim to generalize the method to study transport
+    properties like **bulk viscosity**, and the **dynamic structure
+    factor**, which requires a spatial-temporal, rather than purely spatial,
+    two-body correlation function.
+</div>
+</details>
+  
+</li>
+
+<li>
+<details>
+<summary>
+Explore ML-based techniques in the context of conventional stochastic
+methods, such as <strong>Quantum Monte Carlo</strong> (QMC) or <strong>Complex Langevin</strong>
+(CL)
+</summary>
+<div class="details" markdown="1">
+
+Physics community is becoming more and more open to embrace machine
+learning and picking up the pace to bring in state-of-the-art methods to
+the physics context. Some works focused on the direct application of
+ML-based methods to physics problem.
+
+I am especially interested in using ML-based
+techniques to 
+
+using transformer-based
+models as random field generator to improve sampling efficiency, so that
+one can investigate large lattice size.
+
+</div>
+</details>
+</li>
+   
+</ol>
+
+</div>
+
+
+<p style="margin-left: 0!important;" markdown="1">Below is a selected list
+of projects I find may be interesting to share, though not all of them are
+published. Each project is given a color tag to indicate the
+status. There is also a Table of Contents tab on top for easier
+navigation.</p>
 
 </div>
 
@@ -114,13 +180,27 @@ In this project, I aimed to explore
 
 ### COVID-19 event extraction from noisy tweets {{ page.tag_published }}
 
+The result is published on *In Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT 2020), pp. 499-504. 2020*
+
 # Undergraduate Research
 
 ### Numerical Simulation of Acoustic Field {{ page.tag_undergrad }}
 
-This project is for my undergraduate thesis
+{% include image.html url="assets/img/bat_ear.png" description="Image credit: Original" height="160px" float="left" captionfloat="left" %}
 
-### Flow of Granular Material in 2D Hopper {{ page.tag_undergrad }}
+This project is my undergraduate thesis, supervised by Dr. Hongwang Lu. I
+developed a medium-scale C program to implement the Finite-Difference
+Time-Domain (FDTD) method for classical acoustic field, in order to study
+the propagation of acoustic fields through a bats' ear, as well as to
+verify and explain how the significant geometric features of the bat's ear
+contribute to its superior directional receiving ability. 
+
+<!-- Even thought of FDTD method (and its counterpart in Frequency Domain, FDFD, -->
+<!-- or the popular Finite Element Method, FEM) is mature for the simulation of -->
+<!-- electromagnetic (EM) waves, such as the waveguide, its application acoustic -->
+<!-- field -->
+
+### Jamming and Flow of Granular Material in 2D Hopper {{ page.tag_undergrad }}
 
 {% include image.html url="assets/img/photoelastic.png" description="Image credit: Wikipedia" height="160px" %}
 
@@ -133,21 +213,20 @@ now-associate professor at Wegeningen University.
 
 In the experiment, photoelastic disks were released in a 2D hopper, where
 both the size of the opening and the angle of supporting walls are
-controllable.
-<!--  -->
-Under deformation, the optical properties of photoelastic disks will change and
-therefore, after passing through the polarizing filter.
-<!--  -->
-To that end, a polarized light source was placed behind the hopper and a
-high-speed camera with polarizing filter in front, such that when a particle
-is deformed, the intensity captured will change accordingly. Placed at a slighly different
-angle in front of the hopper, a second camera without the filter was used to
-take the normal picture in synchronization with the first one.
+controllable.  <!-- --> Under deformation, the optical properties of
+photoelastic disks will change and therefore, after passing through the
+polarizing filter.  <!-- --> To that end, a polarized light source was
+placed behind the hopper and a high-speed camera with polarizing filter in
+front, such that when a particle is deformed, the intensity captured will
+change accordingly. Placed at a slighly different angle in front of the
+hopper, a second camera without the filter was used to take the normal
+picture in synchronization with the first one.
 
 I did NOT participate in the experiment, which was performed by Dr. Junyao
-Tang, who was a PhD student graduated in the previous year. My main job was two parts:
-Firstly, I perform image registation to align the images from two cameras, and then apply
-pattern recognization to the normal image to identify and locate each particle.
+Tang, who was a PhD student graduated in the previous year. My main job was
+two parts: Firstly, I perform image registation to align the images from
+two cameras, and then apply pattern recognization to the normal image to
+identify and locate each particle.
 
 With these information, I can trace the particle in the polarized image,
 and then reconstruct the force field, and more ideally the stress tensor,
@@ -155,6 +234,12 @@ for each of them. The latter part is difficult as the image contains only
 the intensity information. Using a quantity coined as Moment of Intensity,
 a different kind of MoI, which showed correlation to the stress tensor in a
 benchmark experiment, we successfully approximated the force field.
+
+The ultimate goal is to discover the phase transition between the jamming
+phase and flowing phase, which is fundamental to the understanding of
+granular flow and has wide application in industries. Unfortunately, due to
+the limitation of time and knowledge at that time, I were not able to reach
+this part by the end of my exchange program.
 
 ### Experimental Study of Thermoelectric Material {{ page.tag_undergrad }}
 
