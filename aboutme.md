@@ -21,64 +21,81 @@ permalink: /aboutme
   <br>Support summer fees, stipends and travel funds
 
 
-## Research Interest
+<!-- ## Research Interest -->
 
-My interests include improving and developing numerical methods for quantum
-many-body systems.
+<!-- My interests include improving and developing numerical methods for quantum -->
+<!-- many-body systems. -->
 
-I have been working on improving conventional **Determinant Quantum Monte
-Carlo** for simulating large-scale system as well as developing a new
-method coined as **Automated Algebra Method** to calculate virial
-coefficients.
+<!-- I have been working on improving conventional **Determinant Quantum Monte -->
+<!-- Carlo** for simulating large-scale system as well as developing a new -->
+<!-- method coined as **Automated Algebra Method** to calculate virial -->
+<!-- coefficients. -->
 
-I am also exploring machine-learning-based techniques in the context of
-quantum many-body systems. Currently I am looking into training Neural Network as an estimator to
-apply inverse of a complicated matricx arising in QMC. Another interesting
-topic is to investigate the possibility and usability to apply knowlegde
-graph in physics.
+<!-- I am also exploring machine-learning-based techniques in the context of -->
+<!-- quantum many-body systems. Currently I am looking into training Neural Network as an estimator to -->
+<!-- apply inverse of a complicated matricx arising in QMC. Another interesting -->
+<!-- topic is to investigate the possibility and usability to apply knowlegde -->
+<!-- graph in physics. -->
 
 ## Research Experience
 
 See [research](/research) for more details, also click item to expand the details panel.
 
-- <details> <summary> <strong>Automated-algebra method for virial coefficient calculation</strong>
-  <span style="float:right;"> [<em>Aug, 2019 - Present</em>] </span>
+- <details> <summary> <strong>Quantum virial expansion for quantum matter</strong>
+  <span style="float:right;"> Aug, 2019 - Present </span>
   </summary>
-      <div class="details" markdown="1">
-placeholder WIP 
+      <div class="details">
+      <ul>
+        <li> Develop a novel and analytical method to automate algebraic operation to evaluate the Quantum Virial Expansion </li>
+        <li> Implement codes and optimize performance for large-scale parallel deployment on Open Science Grid </li>
+        <li> Apply across multiple systems: homogeneous and harmonically trapped Unitary Fermi Gas, dilute neutron matter </li>
+        <li> Generalize to different observables: thermodynamics, Tan's contact, momentum distribution, structure factor and etc. </li>
+      </ul>
      </div>
   </details>
 
   <!-- Develop a new semi-analytical method to calculate virial coefficients of interacting Fermi system.  -->
   
-- <details> <summary> <strong>Energy of Bosonic Droplets from Quantum Noise</strong>
-  <span style="float:right;"> [<em>Jul, 2018 - May, 2019</em>] </span>
+- <details> <summary> <strong>Energy of Bosonic droplets from quantum noise</strong>
+  <span style="float:right;"> Jul, 2018 - May, 2019 </span>
   </summary>
-      <div class="details" markdown="1">
-placeholder WIP 
+      <div class="details">
+      <ul>
+        <li> Extracted ground-state energy of N-body Boson droplets from quantum noise using the cumulant expansion </li>
+      </ul>
      </div>
   </details>
-- <details> <summary> <strong>Thermaldynamics of Quantum Matter at Finite Temperature</strong>
-  <span style="float:right;"> [<em>May, 2017 - Dec, 2018</em>] </span>
+- <details> <summary> <strong>Thermodynamics of quantum matter at finite temperature</strong>
+  <span style="float:right;"> May, 2017 - Dec, 2018 </span>
   </summary>
-      <div class="details" markdown="1">
-placeholder WIP 
+      <div class="details">
+      <ul>
+         <li> Applied hybrid Quantum Monte Carlo (QMC) and Complex Langevin (CL) to extract thermodynamics for SU(N) Fermi gas </li>
+         <li> Introduced higher-order symplectic integrators to reduce decomposition errors </li>
+         <li> Investigated the improvements on sampling efficiencies of auxiliary fields </li>
+      </ul>
      </div>
   </details>
 
-- <details> <summary> <strong>Numerical Simulation of Acoustic Field</strong>
-  <span style="float:right;"> [<em>Mar, 2015 - Jun, 2015</em>] </span>
+- <details> <summary> <strong>Numerical simulation of acoustic field</strong>
+  <span style="float:right;"> Mar, 2015 - Jun, 2015 </span>
   </summary>
-      <div class="details" markdown="1">
-placeholder WIP 
+      <div class="details">
+      <ul>
+         <li> Simulated acoustic field propagation using Finite Difference Time Domain (FDTD) method</li>
+      </ul>
      </div>
   </details>
 
-- <details> <summary> <strong>Flow of Granular Material in 2D Hopper</strong>
-  <span style="float:right;"> [<em>Sep, 2013 - May, 2014</em>] </span>
+- <details> <summary> <strong>Flow of granular material in 2D hopper</strong>
+  <span style="float:right;"> Sep, 2013 - May, 2014 </span>
   </summary>
-      <div class="details" markdown="1">
-placeholder WIP 
+      <div class="details">
+      <ul>
+         <li> Performed image registration, boundary detection to identify and analysis granular particle flow </li>
+         <li> Reconstructed the stress information from image intensities to study jamming-flowing phase transition </li>
+      </ul>
+
      </div>
   </details>
 
@@ -98,31 +115,22 @@ I have been Graduate Teaching Assistant for both undergraduate courses and gradu
 
 ## Technical Skills
 
-I am proficient in **Python** and **Fortran**, which are the major tools in
-my daily research.
 
-- In Python, I am very familiar with packages like
-**Numpy**, **Scipy** as well as **MatPlotLib**. I have some experience with
-**multiprocessing** and **Cython**. Regarding the machine learning
-frameworks, I programmed mainly with **pyTorch** but also have some
-experience with **TensorFlow**.
-- In Fortran, I have some experience with
-**OpenMP** and **MPI** for parallel computation on clusters. The
-**AOCL** and **FFTW** are two of the most frequently used libs in my
-research.
-- As part of my personal interests, I also interacts with **Qt** (PyQt5), **sqlite3** and **selenium** frequently.
+For the programming skills, I am proficient in **Python** and **Fortran** and interacted with them on a daily basis. In more details,
 
-I have been an **Emacs** user for nearly 8 years, which powers most of my
-work and life. I have built a few tiny packages in **E-Lisp** (though never
-published them on www).
+{:style="width: 95%; margin-left:auto; margin-right: auto"}
+| **Python** | I am very familiar with packages like **Numpy**, **Scipy**, and **MatPlotLib**. I have experience with **multiprocessing** and **Cython**. <br> Regarding the machine learning frameworks, I mainly used **PyTorch** and, occassionally, need to interact with projects relying on **TensorFlow** or **scikit-learn**. <br> I also used **pandas** and **seaborn** for panel data and (easier) visualization <!--(though I still prefer the feel of control to tune everythingusing MatPloblib ) --> <br> I also built CLI and GUI applitions and utilities using packages like **PyQt5** (GUI), **curses** (CLI) **sqlite3** and **selenium**. |
+| **Fortran** | I have experience with **OpenMP** and **MPI** for parallel computation on clusters, and relied on **AOCL** and **FFTW** for the research.  |
+| **Lua**  | I used [Awesome WM](https://awesomewm.org/) as my window manager, whose configuration is based on Lua. I also built several packages to extends its functions. |
+| **Emacs-lisp** &nbsp; &nbsp; | `M-x all-hail-emacs` (and `alias vim=emacs`, well, just kidding, I am an [EVIL](https://github.com/emacs-evil/evil) user). I have been using Emacs for nearly a decade, still a newbie by the community standard. I have extended/built/contributed to multiple packages in Emacs-lisp. Though I have to be honest that I have never learned Lisp in a systematic way.  |
+| **Linux** | I have used Linux as the only working environment for 6 years (so many thanks to Stadia saving me from switching the OS for the entertainment). I am familiar with the concepts and managed my personal server. I also managed the group's computation server and worked on remote clusters. |
+| **Scripting** | I have programmed many utilities on `zsh` and familiar with most common programs such as  |
+| **Git** | I used git (and thank you, [Magit](https://magit.vc/) ) on a daily basis for version controls of my codes and documents. |
+| **Other** | Though I am now making all my slides in LaTeX Beamer, I am also experienced in PowerPoint.  <br> I learned HTML and CSS for this website, which is based on Jekyll but with a heavily-customized theme.|
 
-**Linux** is my daily and only working environment: I therefore have some
-experience in **Shell Scipt Programming**. I use [Awesome
-WM](https://awesomewm.org/) because, well, it is really awesome! And thanks to it,
-I also programmed a bunch of widgets in **Lua**. On the clusters, I am familiar with **HTCondor**, which is used in [Open Science Grid (OSG)](https://opensciencegrid.org/)
 
-I am also experienced in **Git** (and all hail to
-[Magit](https://magit.vc/)) and familiar with the workflow on
-[GitHub](https://github.com/yaqihou).
+<!-- ## Personal -->
+
+<!-- In my  -->
 
 <!-- ## Awards -->
