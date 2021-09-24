@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Research (WIP)
+mathjax: true
 tag_published: <span class="mytag tag_done">published</span>
 tag_ongoing: <span class="mytag tag_doing">ongoing</span>
 tag_unpub: <span class="mytag tag_drop">unpublished</span>
@@ -74,17 +75,37 @@ methods, such as <strong>Quantum Monte Carlo</strong> (QMC) or <strong>Complex L
 </summary>
 <div class="details" markdown="1">
 
-Physics community is becoming more and more open to embrace machine
-learning and picking up the pace to bring in state-of-the-art methods to
-the physics context. Some works focused on the direct application of
-ML-based methods to physics problem.
+Physics community is more and more open to machine learning and we are
+witnessing a rising trend towards incorporating the ML-based,
+state-of-the-art methods into the physics context.
 
-I am especially interested in using ML-based
-techniques to 
+Based on my experience in machine-learning related projects and the
+knowledge of conventional stochastic methods used for quantum many-body
+physics, I am especially interested in using ML-based techniques to assist
+the stochastic methods. 
 
-using transformer-based
-models as random field generator to improve sampling efficiency, so that
-one can investigate large lattice size.
+Though there are many successes in applying ML-based techniques to physics
+problem directly, it is not such a case for the simulation of quantum
+many-body systems in two aspects: a) the cost preparing training datasets
+amounts to that of running the simulation to the real problem
+directly. Fine-tuning the model to deal with different parameter
+configurations require extra costs, making it more attractive to apply the
+simulation to the real problem directly; b) The size of quantum state and
+the size of Hilbert space is much larger than the problems witnessing the
+success of machine learning. Such scaling up also require
+specially-tailored accomodations.
+
+Therefore, I am more interesting in combining the benefits of stochastic
+methods and machine learning. In particular, I am investigating using
+transformer-based models and Physics-Informed Neural Network (PINN) to
+faciliate the random field generation, the most important and expensive
+step in the stochastic methods.
+
+In other words, my goal is to design a more general random field generator,
+respecting physics laws and the symmetries, that can be applied in
+theoretically any systems. In this way, one can take advantage of the
+performance boosts from machine learning, without losing the generality of
+conventional methods.
 
 </div>
 </details>
@@ -106,35 +127,122 @@ navigation.</p>
 
 # Research in Physics
 
-My research focuses on computational aspects of the quantum many-body problem.
+My research focuses on computational aspects of the quantum many-body
 
+problem. In particular, I studied the so-called Unitary Quantum Matter,
+which include systems like ultracold atoms and the dilute neutron matter.
 
-As part of my proposal, I am now working on two directions: 
+The "Unitary" refers to a special point, where the systems shows
+universality, i.e. different systems presents the same properties, as the
+there is only one (or a few) length scale govenrning the physics, so that
+all the other details become irrelavent. This is exactly how the two
+appearingly distinct systems, the low-energy atoms and the (relatively)
+high-energy neutron matter, are connected.
+
+To this end, I investigated with two kinds of methods: the **Automated
+Algebra Method** developed by our group, and the **conventional stochastic
+methods** such as Quantum Monte Carlo and Complex Langevin as widely applied
+in various physics problems.
+
 
 ## Automated Algebra Method
 
-Most of my PhD research devotes to an novel, semi-classical method coined
-as Automated Algebra (AA) method. This idea roots from the work of my
-advisor Joaquin Drut and his student Christoper Shill in their publication
-[](). They explored only the leading-order calculation and .
+Most of my PhD research is on using the Quantum Virial Expansion (QVE) to
+analyze ultracold atoms under different settigs. The idea of QVE is to
+decompose the complicated many-body physcis into an infinite series of
+**relative** simple few-body problems, each of which can be described by a
+quantity called virial coefficient \\(b_n\\).
 
-I took over this method in my third year and has beening working on developing both its formalism and implementation since then.
+Now, the challenge is translated to accurately calculate \\(b_n\\) While
+\\( b_2 \\) was computed in 1937, it took more than 60 years to accurately
+determine \\( b_3 \\), due to the steep computational cost of quantum
+mechanics. In the past decade, researchers have been able to move on to \\(
+b_4 \\) , though the studies are limited to a very specific physics
+situation.  Moreover, to determine \\( b_n \\) for higher-body systems, one
+need to deal with a delicated volume cancellations, which are easily
+disturbed by the statistical error as common in the conventional stochastic
+methods.
 
-Below, I describet
+My work devotes to an novel, semi-classical method, named Automated Algebra
+(AA) method, which is free from statistical errors.  The spirit of this
+method is to evaluate the matrix element of Boltzmann factor as analytical
+as possible, using a specially-tailored program that can conduct a very
+limited set of algebraic operation in an efficient fashion.
+
+<!-- This idea roots from the work of my -->
+<!-- advisor Joaquin Drut and his student Christoper Shill in their publication -->
+<!-- [](). They explored only the leading-order calculation and . -->
+
+<!-- I started working on this method in my third year and has beening working on developing both its formalism and implementation since then. -->
+
+<!-- Below, I describet -->
 
 ### Virial Coefficient Calculation {{ page.tag_published }}
 
-![Fourth and fifth order](/assets/img/prl_plot.png){: style="float: left; height:240px; margin-right: 2em"}
+{% include image.html
+url="assets/img/prl_plot.png"
+description="Virial coefficients \(b_3\) to \(b_5\) as functions of coupling strength, from <a href=\"https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.050403\">Phys. Rev. Lett 125, 050403 (2020)</a>"
+height="240px"
+float="left"
+captionfloat="left" %}
 
-Besides the two wosk  of papers in this direction verifies the applicability of our method in different systems: we apply it  
+In the first paper along this research direction [Phys. Rev. A 100, 063627
+(2019)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.063627),
+we developed the formalism and performed the calculation both in hand and
+by computer, laying down the foundation for the future work.
 
+Followed by its publication, we greatly improved the formalism by
+incorporating particle symmetries and implemeted a Python program to
+perform the algebraic operations automatically. To further improve the
+efficiency, I developed the core computation modules in Cython and used
+multiprocessing libraries for parallelization. Afterwards, further
+parallelization is introduced to work on the Open Science Grid.
 
-stars
-- Phys. Rev. Research 3, 033099 (2021)
+All these efforts lead to the second publication [Phys. Rev. Lett 125,
+050403
+(2020)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.050403),
+which is also selected as the Editors' Suggestion.  There, we determined
+\\(b_4\\) with high accuracy and agree very well with a conjecture,
+contributing to resolve the long-standing debate between theoretical
+estimations and experimental determinations.
+
+The significance of our work is more than a benchmark. Thanks to the access
+to of higher-order coefficients, we can implement a technique called
+resummation to expand QVE's convergence region, greatly improving the
+applicability of QVE. More importantly, our formalism is versatile and can
+be generalized to a wide range of systems and quantities, making QVE a
+candidate for more complicated investigations.
+
 
 <div style="clear:both"></div>
 
-### Thermaldynamics and Tan's contant in different systems {{ page.tag_published }}
+### Thermodynamics and Tan's contant in different systems {{ page.tag_published }}
+
+{% include image.html
+url="assets/img/prl_plot.png"
+description="Virial coefficients \(b_3\) to \(b_5\) as functions trapping frequency \(\beta \omega\), from <br> <a href=\"https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.033099\">Phys. Rev. Research 3, 033099 (2021)</a>"
+height="260px"
+float="right"
+captionfloat="right" %}
+
+Encouraged by the success, we further generalized the formalism and applied
+it to calculate multiple observables: density, pressure, Tan's contact,
+susceptibility and compressibility. We also studied the homogeneous systems
+in different dimensions, which demonstrates a huge advantage of our method:
+the results are analytical expressiosn of parameters such as dimension, so
+that we do not need to rerun the calculation for different settings. This
+set of works was summarized in a follow-up publication
+[Phys. Rev. A 102, 033319 (2020)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.033319).
+
+The latest work is to generalize this method to harmonically trapped
+system. Even the basic idea stays the same, there are significant changes
+to the formalism and the implementation details. This is because we need to
+use the coordinate space eigenstate for the trapped Hamiltonian, resulting
+in larger computational costs as the trick to detect volume cancellation
+only work in the momentum space.
+
+In the trapped systems, w
+[Phys. Rev. Research 3, 033099 (2021)](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.033099)
 
 ### Search for pseudogap regime in the Unitary Fermi Gas {{ page.tag_published }}
 
@@ -159,13 +267,13 @@ Dilute neutron matter, as in the crust of a neutron star, belongs to the same un
 
 ## Stochastic Method
 
-### Quantum Monte Carlo in 2D Trapped System <span class="mytag tag_drop">unpublished</span>
+### Quantum monte carlo in 2D trapped system {{ page.tag_unpub }}
 
-### Energy of bosonic droplets <span class="mytag tag_drop">unpublished</span>
+### Energy of bosonic droplets {{ page.tag_unpub }}
 
-### Enhanced Linear Solver for Complex Langevin Method <span class="mytag tag_doing">ongoing</span>
+### Enhanced Linear Solver for Complex Langevin Method {{ page.tag_ongoing }}
 
-### Machine-learning based random field generator <span class="mytag tag_doing">early stage</span>
+### Machine-learning based random field generator {{ page.tag_ongoing }}
 
 
 # Projects in Computer Science
@@ -184,7 +292,7 @@ The result is published on *In Proceedings of the Sixth Workshop on Noisy User-g
 
 # Undergraduate Research
 
-### Numerical Simulation of Acoustic Field {{ page.tag_undergrad }}
+### Numerical simulation of acoustic field {{ page.tag_undergrad }}
 
 {% include image.html url="assets/img/bat_ear.png" description="Image credit: Original" height="160px" float="left" captionfloat="left" %}
 
@@ -200,7 +308,7 @@ contribute to its superior directional receiving ability.
 <!-- electromagnetic (EM) waves, such as the waveguide, its application acoustic -->
 <!-- field -->
 
-### Jamming and Flow of Granular Material in 2D Hopper {{ page.tag_undergrad }}
+### Jamming and flow of granular material in a 2D hopper {{ page.tag_undergrad }}
 
 {% include image.html url="assets/img/photoelastic.png" description="Image credit: Wikipedia" height="160px" %}
 
@@ -241,7 +349,7 @@ granular flow and has wide application in industries. Unfortunately, due to
 the limitation of time and knowledge at that time, I were not able to reach
 this part by the end of my exchange program.
 
-### Experimental Study of Thermoelectric Material {{ page.tag_undergrad }}
+### Experiments on thermoelectric ceramics {{ page.tag_undergrad }} {{ page.tag_published }}
 
 I joined this project, which is also my first, during the second semester
 of the sophomore year (Spring 2013), as part of the Undergraduate Research

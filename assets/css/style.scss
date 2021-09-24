@@ -107,6 +107,7 @@ header {
 @media screen and (max-width: 480px) {
     #menubaritems li {
         display: block!important;
+        border-bottom: 1px solid #222;
     }
 
     #menubaritems a{
@@ -220,6 +221,10 @@ header a:hover, a:active{
 summary {list-style: none}
 summary::-webkit-details-marker {display: none; }
 
+details ul {
+    list-style-type: circle;
+}
+
 details:hover, details:focus {
   background: lightgray;
 }
@@ -230,15 +235,15 @@ details div.details{
 details div.details p{
     margin-left: .8rem;
 }
-// details summary:before { 
-//   content:"[+]"; 
-//   font-family: monospace, monospace;
-// }
+details summary:before { 
+  content:"[+]"; 
+  font-family: monospace, monospace;
+}
 
-// details[open] summary:before { 
-//   content:"[-]"; 
-//   font-family: monospace, monospace;
-// }
+details[open] summary:before { 
+  content:"[-]"; 
+  font-family: monospace, monospace;
+}
 
 
 span.mytag{
@@ -302,6 +307,7 @@ span.tag_drop {
     position: absolute;
     height:100%;
     width: 100%;
+    min-width: 180px;
     pointer-events: none;
     // top: 0;
     // left: 0;
@@ -314,7 +320,7 @@ span.tag_drop {
     font-size: 22px;
     text-align: center;
     //
-    width: 170px;
+    width: 180px;
     border-radius: 0px 0 5px 5px;
     //
     margin: -40px 0 0 0;
@@ -379,3 +385,18 @@ figure.myimage figcaption {
     margin-top: -10px;
     padding: 0 5px;
 }
+
+figure { display: table; }
+
+figcaption { display: table-caption; caption-side: bottom ; }
+
+td {
+    border-style : hidden!important;
+    padding: 5px;
+}
+
+// a dirty but easy trick to set column width
+td:nth-of-type(1) {
+    width: 15%;
+}
+

@@ -6,8 +6,7 @@
            {% endif %}
            margin-right: {{ include.marginright | default: '7px' }};">
     <img src="{{ include.url }}"
-         alt="{{ include.description }}"
-         style="height: {{ include.height | default: '160px' }}" >
+         style="height: {{ include.height | default: '160px' }};" >
     <figcaption
         style="text-align: {{ include.captionfloat | default: 'right' }};">
         {{ include.description }}
