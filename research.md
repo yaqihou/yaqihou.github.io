@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Research (WIP)
+title: Research
 mathjax: true
 tag_published: <span class="mytag tag_done">published</span>
 tag_ongoing: <span class="mytag tag_doing">ongoing</span>
