@@ -10,7 +10,8 @@ mathjax: true
 
 {: reversed="reversed"}
 1. **Toward an Automated‑Algebra Framework for High Orders in the Virial Expansion of Quantum Matter†**<br/>
-   A. J. Czejdo, J. E. Drut, **<u>Y. Hou</u>**, K. J Morrell, *Condensed Matter 7, 13 (2022)*
+   A. J. Czejdo, J. E. Drut, **<u>Y. Hou</u>**, K. J Morrell, *Condensed Matter 7, 13 (2022)*<br/>
+   DOI: [10.3390/condmat7010013](https://doi.org/10.3390/condmat7010013)
 
 1. **Fourth- and fifth-order virial expansion of harmonically trapped fermions at unitarity**<br/>
    **<u>Y. Hou</u>**, K. J. Morrell, A. J. Czejdo, J. E. Drut, *Phys. Rev. Research 3, 033099 (2021)*<br/>
@@ -24,7 +25,7 @@ mathjax: true
   **<u>Y. Hou</u>** and J.  E. Drut, *Phys. Rev. Lett. 125, 050403 (2020)* (Editor's Suggestion)<br/>
   DOI: [10.1103/PhysRevLett.125.050403](https://doi.org/10.1103/PhysRevLett.125.050403)
 
-1. **Virial expansion of attractively interacting Fermi gases in one, two, and three dimensions, up to fifth order **<br/>
+1. **Virial expansion of attractively interacting Fermi gases in one, two, and three dimensions, up to fifth order**<br/>
   **<u>Y. Hou</u>**, J. E. Drut, *Phys. Rev. A 102, 033319 (2020)*<br/>
   DOI: [10.1103/PhysRevA.102.033319](https://doi.org/10.1103/PhysRevA.102.033319)
 
