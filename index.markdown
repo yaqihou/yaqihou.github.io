@@ -7,12 +7,13 @@ title: Main
 ---
 # Hello there!
 
-I am a PhD candidate in Physics at UNC-Chapel Hill. Currently, I am in my
-final year and plan to graduate in May 2022. I work under the supervision of
-[Prof. Joaquin Drut](https://users.physics.unc.edu/~drut/public_html_UNC/)
-and focus on the computational and analytical methods at the interface
-between quantum gases and neutron matter system. I obtained my B.S. degree
-in Physics from Shangdong University, China in 2015.
+I currently work at Wells Fargo as a Quantitative Analytics Specialist. I
+obtianed my PhD in Physics at UNC-Chapel Hill in 2022. I worked under the
+supervision of [Prof. Joaquin
+Drut](https://users.physics.unc.edu/~drut/public_html_UNC/) and focused on
+the computational and analytical methods at the interface between quantum
+gases and neutron matter system. I obtained my B.S. degree in Physics from
+Shangdong University, China in 2015.
 
 Below is a list of links for more details about me:
 
