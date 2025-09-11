@@ -21,7 +21,7 @@
 title: Yaqi Hou
 email: yaqi.hou@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
-        Computational Physics | <a href="https://github.com/emacs-evil/evil">"EVIL"</a> Emacs user | NLP Enthusiast
+        Quant | Computational Physics | <a href="https://github.com/emacs-evil/evil">"EVIL"</a> Emacs user # | NLP Enthusiast
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "yaqihou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""

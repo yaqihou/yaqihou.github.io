@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Publications
+permalink: /publications
 mathjax: true
 ---
 

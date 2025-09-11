@@ -37,9 +37,26 @@ permalink: /aboutme
 <!-- topic is to investigate the possibility and usability to apply knowlegde -->
 <!-- graph in physics. -->
 
+## Professional Experience
+
+### Quantitative Analyst, Assistant Vice President
+**Wells Fargo, Charlotte, NC** <span style="float:right;"> _May 2022_ to _Present_ </span>
+
+**Risk Quantitative Analyst - Equity Market Risk Analytics**
+- Lead developer for Python-based market risk analytical package serving trading, risk, and capital teams
+- Designed risk modules for PnL analysis, FRTB SA, and ISDA SIMM regulatory frameworks
+- Built interactive dashboards using Dash and Bootstrap for non-technical stakeholders
+- Led cross-functional teams on Equity Risk PnL projects processing multi-year portfolio data
+- Pioneered automation initiatives reducing KPI monitoring from multi-day to same-day workflows
+- Present quarterly analytics to senior management across business lines
+
+**Front-Office Quantitative Analyst - Commodities Group** 
+- Developed C++ pricing model for Natural Gas storage contract intrinsic value
+- Prepared technical documentation and validation materials for model implementation
+
 ## Research Experience
 
-See [research](/research) for more details, also click item to expand the details panel.
+*See [research](/research) page for detailed technical projects and publications.*
 
 - <details> <summary> <strong>Quantum virial expansion for quantum matter</strong>
   <span style="float:right;"> Aug, 2019 - Present </span>
@@ -116,17 +133,15 @@ I have been Graduate Teaching Assistant for both undergraduate courses and gradu
 ## Technical Skills
 
 
-For the programming skills, I am proficient in **Python** and **Fortran** and interacted with them on a daily basis. In more details,
+I have developed expertise across multiple programming languages and technologies through both academic research and industry applications:
 
 {:style="width: 95%; margin-left:auto; margin-right: auto"}
-| **Python** | I am very familiar with packages like **Numpy**, **Scipy**, and **MatPlotLib**. I have experience with **multiprocessing** and **Cython**. <br> Regarding the machine learning frameworks, I mainly used **PyTorch** and, occassionally, need to interact with projects relying on **TensorFlow** or **scikit-learn**. <br> I also used **pandas** and **seaborn** for panel data and (easier) visualization <!--(though I still prefer the feel of control to tune everythingusing MatPloblib ) --> <br> I also built CLI and GUI applitions and utilities using packages like **PyQt5** (GUI), **curses** (CLI) **sqlite3** and **selenium**. |
-| **Fortran** | I have experience with **OpenMP** and **MPI** for parallel computation on clusters, and relied on **AOCL** and **FFTW** for the research.  |
-| **Lua**  | I used [Awesome WM](https://awesomewm.org/) as my window manager, whose configuration is based on Lua. I also built several packages to extends its functions. |
-| **Emacs-lisp** &nbsp; &nbsp; | `M-x all-hail-emacs` (and `alias vim=emacs`, well, just kidding, I am an [EVIL](https://github.com/emacs-evil/evil) user). I have been using Emacs for nearly a decade, still a newbie by the community standard. I have extended/built/contributed to multiple packages in Emacs-lisp. Though I have to be honest that I have never learned Lisp in a systematic way.  |
-| **Linux** | I have used Linux as the only working environment for 6 years (so many thanks to Stadia saving me from switching the OS for the entertainment). I am familiar with the concepts and managed my personal server. I also managed the group's computation server and worked on remote clusters. |
-| **Scripting** | I have programmed many utilities on `zsh` and familiar with most common programs such as  |
-| **Git** | I used git (and thank you, [Magit](https://magit.vc/) ) on a daily basis for version controls of my codes and documents. |
-| **Other** | Though I am now making all my slides in LaTeX Beamer, I am also experienced in PowerPoint.  <br> I learned HTML and CSS for this website, which is based on Jekyll but with a heavily-customized theme.|
+| **Programming Languages** | **Development**: Python, C++, Fortran <br> **Utilities**: SQL, JavaScript, Lua, Emacs-Lisp, Bash/Zsh |
+| **ML/Data Science** | **Core Libraries**: Pandas, NumPy, scikit-learn, PyTorch, TensorFlow <br> **Specialized Tools**: Prophet (time series), statsmodels, LightGBM <br> **Applications**: Risk modeling, predictive analytics, regulatory compliance |
+| **Visualization & Interface** | **Interactive Dashboards**: Dash, Plotly (used for Wells Fargo stakeholder tools) <br> **Analysis**: Matplotlib, Seaborn <br> **UI Development**: HTML/CSS, PyQt5 |
+| **Financial Technology** | **Risk Analytics**: Market risk frameworks (FRTB SA, ISDA SIMM) <br> **Derivatives Pricing**: C++ model development for commodities <br> **Data Processing**: Multi-year portfolio analysis, regulatory reporting |
+| **Supporting Tools** | **Development Environment**: Linux, Emacs, Git, Shell Scripting <br> **Business Tools**: Excel, LaTeX, PowerPoint <br> **Infrastructure**: Code review, training, production deployment |
+| **Specialized Skills** | **Team Leadership**: Led teams of 3-5 analysts and consultants <br> **Process Automation**: Transformed manual workflows to automated systems <br> **Stakeholder Communication**: Executive reporting, technical documentation |
 
 
 <!-- ## Personal -->
