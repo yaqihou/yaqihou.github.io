@@ -418,6 +418,13 @@ li a {
       visibility: visible;
       transform: translateY(0);
     }
+    
+    // Ensure solid background on homepage
+    body.has-hero & {
+      background: var(--bg-primary);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--gray-300);
+    }
   }
 }
 
@@ -562,6 +569,22 @@ li a {
     text-align: center;
     padding: var(--space-4);
   }
+  
+  // Fix mobile nav text color on homepage - override hero white text
+  @media (max-width: 768px) {
+    body.has-hero .nav-menu & {
+      color: var(--text-primary) !important;
+      
+      &:hover, &.active {
+        color: var(--color-primary) !important;
+        background: var(--gray-100) !important;
+      }
+      
+      &::after {
+        background: var(--color-primary) !important;
+      }
+    }
+  }
 }
 
 .nav-toggle {
@@ -583,6 +606,15 @@ li a {
     background: var(--text-primary);
     border-radius: 1px;
     transition: all var(--duration-normal) var(--easing-smooth);
+  }
+  
+  // Fix toggle button color on homepage
+  body.has-hero & .nav-toggle-line {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  body.has-hero .navbar.scrolled & .nav-toggle-line {
+    background: var(--text-primary);
   }
   
   &.active {
@@ -708,8 +740,10 @@ li a {
 .hero-scroll {
   position: absolute;
   bottom: var(--space-8);
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
   z-index: 2;
   animation: fadeInUp 1s ease-out 1.2s both;
 }
@@ -1358,6 +1392,10 @@ ul, ol {
     align-items: center;
   }
   
+  .hero-scroll {
+    bottom: var(--space-4) !important;
+  }
+  
   .links-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--space-6);
@@ -1371,6 +1409,10 @@ ul, ol {
   
   .hero-description {
     font-size: var(--font-size-base);
+  }
+  
+  .hero-scroll {
+    bottom: var(--space-6) !important;
   }
   
   .main-content {
