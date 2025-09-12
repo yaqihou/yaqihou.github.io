@@ -11,18 +11,24 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 ## Technology Stack & Business Applications
 
 <div class="tech-overview-enhanced">
-  <div class="tech-section-enhanced">
+  <div class="tech-showcase-container">
+    <div class="tech-section-enhanced">
     <div class="tech-header">
       <h3>🐍 Core Development & Architecture</h3>
-      <span class="tech-years">5+ years</span>
+      <div class="tech-years">
+        <span class="years-number">5+</span>
+        <span class="years-text">YEARS</span>
+      </div>
     </div>
     <div class="tech-content">
       <div class="tech-badges">
-        <span class="tech-badge expert" title="Expert level - 5+ years production experience">Python</span>
-        <span class="tech-badge expert" title="Expert level - Financial modeling & derivatives pricing">C++</span>
-        <span class="tech-badge expert" title="Expert level - Complex financial data queries">SQL</span>
-        <span class="tech-badge proficient" title="Proficient - Academic research applications">Fortran</span>
-        <span class="tech-badge proficient" title="Proficient - Interactive dashboards">JavaScript</span>
+        <div class="tech-skills-list">
+          <span class="tech-skill-name">Python</span>
+          <span class="tech-skill-name">C++</span>
+          <span class="tech-skill-name">SQL</span>
+          <span class="tech-skill-name">Fortran</span>
+          <span class="tech-skill-name">JavaScript</span>
+        </div>
       </div>
       <p class="tech-description">Architected comprehensive Python market risk analytical package, reducing analysis turnaround from weeks to days. Led development of C++ pricing models for Natural Gas storage contracts.</p>
     </div>
@@ -31,16 +37,21 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
   <div class="tech-section-enhanced">
     <div class="tech-header">
       <h3>📊 Data Science & Machine Learning</h3>
-      <span class="tech-years">4+ years</span>
+      <div class="tech-years">
+        <span class="years-number">4+</span>
+        <span class="years-text">YEARS</span>
+      </div>
     </div>
     <div class="tech-content">
       <div class="tech-badges">
-        <span class="tech-badge expert" title="Expert level - Portfolio-level analysis">Pandas</span>
-        <span class="tech-badge expert" title="Expert level - Mathematical computations">NumPy</span>
-        <span class="tech-badge expert" title="Expert level - Time series forecasting">Prophet</span>
-        <span class="tech-badge proficient" title="Proficient - Risk modeling applications">scikit-learn</span>
-        <span class="tech-badge proficient" title="Proficient - Financial data modeling">LightGBM</span>
-        <span class="tech-badge learning" title="Learning - Deep learning research">PyTorch</span>
+        <div class="tech-skills-list">
+          <span class="tech-skill-name">Pandas</span>
+          <span class="tech-skill-name">NumPy</span>
+          <span class="tech-skill-name">Prophet</span>
+          <span class="tech-skill-name">scikit-learn</span>
+          <span class="tech-skill-name">LightGBM</span>
+          <span class="tech-skill-name">PyTorch</span>
+        </div>
       </div>
       <p class="tech-description">Conducted time-series analysis on VaR model P&L data for forecasting and scenario analysis. Led cross-functional teams processing multi-year historical portfolio data.</p>
     </div>
@@ -49,15 +60,20 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
   <div class="tech-section-enhanced">
     <div class="tech-header">
       <h3>📈 Visualization & User Interfaces</h3>
-      <span class="tech-years">3+ years</span>
+      <div class="tech-years">
+        <span class="years-number">3+</span>
+        <span class="years-text">YEARS</span>
+      </div>
     </div>
     <div class="tech-content">
       <div class="tech-badges">
-        <span class="tech-badge expert" title="Expert level - Interactive stakeholder dashboards">Dash</span>
-        <span class="tech-badge expert" title="Expert level - Financial data visualization">Plotly</span>
-        <span class="tech-badge proficient" title="Proficient - Statistical analysis plots">Matplotlib</span>
-        <span class="tech-badge proficient" title="Proficient - Data exploration">Seaborn</span>
-        <span class="tech-badge proficient" title="Proficient - Dashboard styling">HTML/CSS</span>
+        <div class="tech-skills-list">
+          <span class="tech-skill-name">Dash</span>
+          <span class="tech-skill-name">Plotly</span>
+          <span class="tech-skill-name">Matplotlib</span>
+          <span class="tech-skill-name">Seaborn</span>
+          <span class="tech-skill-name">HTML/CSS</span>
+        </div>
       </div>
       <p class="tech-description">Pioneered interactive dashboard project using Dash and Bootstrap, democratizing access to complex analytical models for non-technical stakeholders across trading and risk teams.</p>
     </div>
@@ -66,15 +82,20 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
   <div class="tech-section-enhanced">
     <div class="tech-header">
       <h3>🏦 Financial Risk & Regulatory Technology</h3>
-      <span class="tech-years">2+ years</span>
+      <div class="tech-years">
+        <span class="years-number">2+</span>
+        <span class="years-text">YEARS</span>
+      </div>
     </div>
     <div class="tech-content">
       <div class="tech-badges">
-        <span class="tech-badge expert" title="Expert level - Fundamental Review of Trading Book">FRTB SA</span>
-        <span class="tech-badge expert" title="Expert level - Initial Margin Model">ISDA SIMM</span>
-        <span class="tech-badge expert" title="Expert level - Value at Risk modeling">VaR Modeling</span>
-        <span class="tech-badge proficient" title="Proficient - Options & commodities pricing">Derivatives Pricing</span>
-        <span class="tech-badge proficient" title="Proficient - P&L attribution analysis">PnL Analysis</span>
+        <div class="tech-skills-list">
+          <span class="tech-skill-name">FRTB SA</span>
+          <span class="tech-skill-name">ISDA SIMM</span>
+          <span class="tech-skill-name">VaR Modeling</span>
+          <span class="tech-skill-name">Derivatives Pricing</span>
+          <span class="tech-skill-name">PnL Analysis</span>
+        </div>
       </div>
       <p class="tech-description">Designed and developed major market risk modules serving trading, risk, and capital teams. Automated multi-day KPI monitoring workflows for BAU and regulatory models.</p>
     </div>
@@ -83,16 +104,21 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
   <div class="tech-section-enhanced">
     <div class="tech-header">
       <h3>🛠️ Development & Infrastructure Tools</h3>
-      <span class="tech-years">6+ years</span>
+      <div class="tech-years">
+        <span class="years-number">6+</span>
+        <span class="years-text">YEARS</span>
+      </div>
     </div>
     <div class="tech-content">
       <div class="tech-badges">
-        <span class="tech-badge expert" title="Expert level - Linux development environment">Linux</span>
-        <span class="tech-badge expert" title="Expert level - Version control & collaboration">Git</span>
-        <span class="tech-badge proficient" title="Proficient - Shell automation">Bash/Zsh</span>
-        <span class="tech-badge proficient" title="Proficient - Development environment">Emacs</span>
-        <span class="tech-badge proficient" title="Proficient - Documentation">LaTeX</span>
-        <span class="tech-badge learning" title="Learning - Containerization">Docker</span>
+        <div class="tech-skills-list">
+          <span class="tech-skill-name">Linux</span>
+          <span class="tech-skill-name">Git</span>
+          <span class="tech-skill-name">Bash/Zsh</span>
+          <span class="tech-skill-name">Emacs</span>
+          <span class="tech-skill-name">LaTeX</span>
+          <span class="tech-skill-name">Docker</span>
+        </div>
       </div>
       <p class="tech-description">Extensive experience with production deployment, code reviews, and training sessions for quantitative analysts and external stakeholders.</p>
     </div>
@@ -101,17 +127,26 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
   <div class="tech-section-enhanced">
     <div class="tech-header">
       <h3>👥 Leadership & Process Management</h3>
-      <span class="tech-years">3+ years</span>
+      <div class="tech-years">
+        <span class="years-number">3+</span>
+        <span class="years-text">YEARS</span>
+      </div>
     </div>
     <div class="tech-content">
       <div class="tech-badges">
-        <span class="tech-badge expert" title="Expert level - Cross-functional team leadership">Team Leadership</span>
-        <span class="tech-badge expert" title="Expert level - Workflow automation">Process Automation</span>
-        <span class="tech-badge proficient" title="Proficient - Senior management reporting">Executive Communication</span>
-        <span class="tech-badge proficient" title="Proficient - Training & mentoring">Knowledge Transfer</span>
+        <div class="tech-skills-list">
+          <span class="tech-skill-name">Team Leadership</span>
+          <span class="tech-skill-name">Process Automation</span>
+          <span class="tech-skill-name">Executive Communication</span>
+          <span class="tech-skill-name">Knowledge Transfer</span>
+        </div>
       </div>
       <p class="tech-description">Led teams of 5+ analysts and consultants on Equity Risk PnL projects. Present quarterly analytics to senior management and deliver cross-business line support.</p>
     </div>
+  </div>
+  </div>
+  <div class="tech-pagination">
+    <!-- Progress dots will be generated by JavaScript -->
   </div>
 </div>
 
@@ -123,25 +158,96 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 
 <style>
 .tech-overview-enhanced {
-  display: grid;
-  grid-template-columns: 1fr;
+  position: relative;
+  margin: var(--space-6) 0;
+  overflow: hidden;
+}
+
+.tech-showcase-container {
+  display: flex;
   gap: var(--space-6);
-  margin: var(--space-8) 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: var(--space-4) var(--space-8) var(--space-2) var(--space-8);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x mandatory;
+}
+
+.tech-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) 0 var(--space-2) 0;
+  margin-top: var(--space-2);
+}
+
+.progress-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gray-300);
+  transition: all var(--duration-fast) var(--easing-smooth);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.progress-dot:hover {
+  background: var(--color-primary);
+  transform: scale(1.3);
+  opacity: 0.8;
+}
+
+.progress-dot.active {
+  background: var(--color-primary);
+  transform: scale(1.6);
+  opacity: 1;
+}
+
+.tech-showcase-container::-webkit-scrollbar {
+  display: none;
 }
 
 .tech-section-enhanced {
   background: var(--bg-surface);
   border: 1px solid var(--gray-200);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-xl);
   padding: var(--space-6);
   transition: all var(--duration-normal) var(--easing-smooth);
-  border-left: 4px solid var(--color-primary);
+  border-top: 3px solid var(--color-primary);
+  width: 280px;
+  height: 440px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tech-section-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-normal) var(--easing-smooth);
 }
 
 .tech-section-enhanced:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
-  border-left-color: var(--color-accent);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+  border-color: var(--color-primary);
+}
+
+.tech-section-enhanced:hover::before {
+  transform: scaleX(1);
 }
 
 .tech-header {
@@ -149,116 +255,143 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
   justify-content: space-between;
   align-items: center;
   margin-bottom: var(--space-4);
+  gap: var(--space-2);
 }
 
 .tech-header h3 {
   margin: 0;
   color: var(--text-primary);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   font-weight: 600;
+  line-height: 1.3;
+  flex: 1;
+  min-width: 0; /* Allow text to shrink */
 }
 
 .tech-years {
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark, #1d4ed8) 100%);
   color: white;
-  padding: var(--space-1) var(--space-3);
+  padding: var(--space-2) var(--space-3);
   border-radius: var(--border-radius);
-  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  min-width: 50px;
+  text-align: center;
+}
+
+.tech-years .years-number {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.tech-years .years-text {
+  font-size: 9px;
   font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .tech-content {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  height: 100%;
   gap: var(--space-4);
 }
 
 .tech-badges {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tech-skills-list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
+  width: 100%;
+  align-content: start;
 }
 
-.tech-badge {
-  display: inline-block;
-  padding: var(--space-2) var(--space-3);
-  border-radius: var(--border-radius);
-  font-size: var(--font-size-sm);
+.tech-skill-name {
   font-weight: 500;
-  transition: all var(--duration-normal) var(--easing-smooth);
-  cursor: help;
-  position: relative;
-}
-
-.tech-badge.expert {
-  background: var(--color-primary);
-  color: white;
-  border: 2px solid var(--color-primary);
-}
-
-.tech-badge.proficient {
-  background: var(--color-accent);
-  color: white;
-  border: 2px solid var(--color-accent);
-}
-
-.tech-badge.learning {
-  background: var(--gray-200);
   color: var(--text-primary);
-  border: 2px solid var(--gray-300);
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
+  padding: var(--space-2) var(--space-3);
+  background: linear-gradient(135deg, var(--gray-50) 0%, var(--bg-surface) 100%);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--duration-normal) var(--easing-smooth);
+  border: 1px solid var(--gray-200);
+  position: relative;
+  overflow: hidden;
 }
 
-.tech-badge:hover {
+.tech-skill-name::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.tech-skill-name:hover {
+  background: linear-gradient(135deg, var(--bg-surface) 0%, white 100%);
+  border-color: var(--color-primary);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+  color: var(--color-primary);
 }
 
-.tech-badge.expert:hover {
-  background: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
-}
-
-.tech-badge.proficient:hover {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
-  filter: brightness(1.1);
-}
-
-.tech-badge.learning:hover {
-  background: var(--gray-300);
-  border-color: var(--gray-400);
+.tech-skill-name:hover::before {
+  left: 100%;
 }
 
 .tech-description {
   color: var(--text-secondary-dark);
-  font-size: var(--font-size-base);
-  line-height: 1.6;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
   margin: 0;
   font-style: italic;
+  flex: 1;
+  display: flex;
+  align-items: end;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--gray-200);
 }
 
 .tech-navigation {
   text-align: center;
-  margin: var(--space-8) 0;
-  padding: var(--space-6);
+  // margin: var(--space-8) 0;
+  padding-top: var(--space-6);
   background: linear-gradient(135deg, var(--gray-50) 0%, var(--bg-surface) 100%);
   border-radius: var(--border-radius-lg);
-  border: 1px solid var(--gray-200);
+  // border: 1px solid var(--gray-200);
 }
 
 .jump-link {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  padding: var(--space-4) var(--space-8);
-  background: var(--color-primary);
-  color: white !important;
+  padding: var(--space-3) var(--space-4);
+  background: var(--gray-100);
+  color: var(--color-primary) !important;
   text-decoration: none !important;
   border-radius: var(--border-radius-lg);
-  font-weight: 600;
-  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
   transition: all var(--duration-normal) var(--easing-smooth);
-  border: 2px solid var(--color-primary);
+  border: 1px solid var(--gray-200);
   position: relative;
 }
 
@@ -267,55 +400,72 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 }
 
 .jump-link:hover {
-  background: var(--color-primary-dark) !important;
+  background: var(--color-primary) !important;
   color: white !important;
   text-decoration: none !important;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
 }
 
-/* Skill Level Legend */
-.tech-overview-enhanced::before {
-  content: "Expert  Proficient  Learning";
-  display: block;
-  text-align: center;
-  font-size: var(--font-size-xs);
-  color: var(--text-muted);
-  margin-bottom: var(--space-4);
-  padding: var(--space-3);
-  background: var(--gray-50);
-  border-radius: var(--border-radius);
-  border: 1px solid var(--gray-200);
-}
+/* Clean skill level hierarchy - only colored year badges provide visual hierarchy */
 
 @media (max-width: 768px) {
   .tech-section-enhanced {
-    padding: var(--space-4);
+    width: 280px;
+    height: 420px;
+    padding: var(--space-5);
   }
   
-  .tech-header {
-    flex-direction: column;
-    align-items: flex-start;
+  .tech-showcase-container {
+    padding: var(--space-3) var(--space-6) var(--space-2) var(--space-6);
+    gap: var(--space-4);
+  }
+  
+  .tech-pagination {
+    padding: var(--space-3) 0 var(--space-2) 0;
     gap: var(--space-2);
   }
   
+  .progress-dot {
+    width: 4px;
+    height: 4px;
+  }
+  
+  .tech-header {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+  
   .tech-header h3 {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-sm);
+    line-height: 1.2;
   }
   
   .tech-years {
-    font-size: 10px;
     padding: var(--space-1) var(--space-2);
+    min-width: 40px;
   }
   
-  .tech-badge {
+  .tech-years .years-number {
     font-size: var(--font-size-xs);
-    padding: var(--space-1) var(--space-2);
+  }
+  
+  .tech-years .years-text {
+    font-size: 8px;
+  }
+  
+  .tech-skill-name {
+    font-size: var(--font-size-xs);
+    padding: var(--space-2) var(--space-3);
   }
   
   .tech-description {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
+    line-height: 1.4;
+    padding-top: var(--space-2);
   }
   
   .jump-link {
@@ -408,7 +558,7 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 }
 
 .skill-category-card.expanded .skill-card-toggle {
-  transform: rotate(180deg);
+  transform: rotate(45deg);
 }
 
 .skill-card-content {
@@ -470,13 +620,17 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 }
 
 .skill-level {
-  padding: var(--space-1) var(--space-3);
+  padding: var(--space-1) 0;
   border-radius: var(--border-radius);
   font-size: var(--font-size-xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   white-space: nowrap;
+  width: 90px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .skill-level.expert {
@@ -495,7 +649,7 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 }
 
 .skill-context {
-  color: var(--text-secondary);
+  color: var(--text-secondary-dark);
   font-size: var(--font-size-sm);
   font-style: italic;
   line-height: 1.4;
@@ -547,6 +701,130 @@ I am a **Quantitative Analytics Specialist** at Wells Fargo with expertise in ri
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Tech Showcase Progress Indicator and Scroll Behavior
+  const showcaseContainer = document.querySelector('.tech-showcase-container');
+  const paginationContainer = document.querySelector('.tech-pagination');
+  const cards = document.querySelectorAll('.tech-section-enhanced');
+  
+  if (showcaseContainer && paginationContainer && cards.length > 0) {
+    let progressDots = [];
+    
+    // Create progress indicator dots
+    function createProgressIndicators() {
+      paginationContainer.innerHTML = '';
+      progressDots = [];
+      
+      // Create dots representing key positions along the scroll
+      const numDots = Math.min(cards.length, 5); // Max 5 dots for clean design
+      
+      for (let i = 0; i < numDots; i++) {
+        const dot = document.createElement('div');
+        dot.className = 'progress-dot';
+        
+        const targetPercent = (i / (numDots - 1)) * 100;
+        dot.addEventListener('click', function() {
+          scrollToPercent(targetPercent);
+        });
+        
+        paginationContainer.appendChild(dot);
+        progressDots.push(dot);
+      }
+    }
+    
+    // Calculate scroll percentage
+    function getScrollPercentage() {
+      const maxScroll = showcaseContainer.scrollWidth - showcaseContainer.clientWidth;
+      if (maxScroll <= 0) return 0;
+      
+      const scrollLeft = showcaseContainer.scrollLeft;
+      return Math.min(100, Math.max(0, (scrollLeft / maxScroll) * 100));
+    }
+    
+    // Update progress indicator
+    function updateProgress() {
+      const percentage = getScrollPercentage();
+      
+      // Update active dot based on percentage
+      const numDots = progressDots.length;
+      
+      // Special handling for when we're at the very end
+      if (percentage >= 99) {
+        // When at the very end, only the rightmost dot should be active
+        progressDots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === numDots - 1);
+        });
+      } else {
+        progressDots.forEach((dot, i) => {
+          const dotThreshold = (i / (numDots - 1)) * 100;
+          const nextThreshold = ((i + 1) / (numDots - 1)) * 100;
+          
+          if (numDots === 1) {
+            dot.classList.toggle('active', percentage > 10);
+          } else if (i === numDots - 1) {
+            // Last dot activates when we're close to the end, but not at 99%+
+            dot.classList.toggle('active', percentage > 80 && percentage < 99);
+          } else {
+            // Other dots activate within their range
+            const isActive = percentage >= dotThreshold - 10 && percentage < nextThreshold + 10;
+            dot.classList.toggle('active', isActive);
+          }
+        });
+      }
+    }
+    
+    // Scroll to specific percentage
+    function scrollToPercent(targetPercent) {
+      const maxScroll = showcaseContainer.scrollWidth - showcaseContainer.clientWidth;
+      const targetScroll = (targetPercent / 100) * maxScroll;
+      
+      showcaseContainer.scrollTo({
+        left: targetScroll,
+        behavior: 'smooth'
+      });
+    }
+    
+    // Custom wheel scroll behavior when hovering over showcase
+    let isHoveringShowcase = false;
+    
+    showcaseContainer.addEventListener('mouseenter', function() {
+      isHoveringShowcase = true;
+    });
+    
+    showcaseContainer.addEventListener('mouseleave', function() {
+      isHoveringShowcase = false;
+    });
+    
+    showcaseContainer.addEventListener('wheel', function(e) {
+      if (isHoveringShowcase) {
+        e.preventDefault();
+        
+        // Convert vertical scroll to horizontal
+        const delta = e.deltaY;
+        const scrollAmount = delta * 0.5; // Adjust scroll sensitivity
+        
+        showcaseContainer.scrollBy({
+          left: scrollAmount,
+          behavior: 'smooth'
+        });
+      }
+    }, { passive: false });
+    
+    // Update progress on scroll
+    showcaseContainer.addEventListener('scroll', function() {
+      updateProgress();
+    });
+    
+    // Handle window resize
+    window.addEventListener('resize', function() {
+      // Recalculate progress after resize
+      setTimeout(updateProgress, 100);
+    });
+    
+    // Initialize progress indicators
+    createProgressIndicators();
+    updateProgress(); // Set initial state
+  }
+  
   // Initialize all skill category cards as collapsed
   const skillCards = document.querySelectorAll('.skill-category-card');
   
@@ -568,7 +846,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Expand
         card.classList.add('expanded');
         content.style.display = 'block';
-        toggle.style.transform = 'rotate(180deg)';
+        toggle.style.transform = 'rotate(45deg)';
         
         // Add entrance animation
         content.style.opacity = '0';
@@ -653,7 +931,7 @@ I have developed expertise across multiple programming languages and technologie
         <h4>Programming Languages</h4>
         <span class="skill-card-count">8 languages</span>
       </div>
-      <div class="skill-card-toggle">▼</div>
+      <div class="skill-card-toggle">+</div>
     </div>
     <div class="skill-card-content">
       <div class="skill-subcategory">
@@ -716,7 +994,7 @@ I have developed expertise across multiple programming languages and technologie
         <h4>ML/Data Science</h4>
         <span class="skill-card-count">12+ frameworks</span>
       </div>
-      <div class="skill-card-toggle">▼</div>
+      <div class="skill-card-toggle">+</div>
     </div>
     <div class="skill-card-content">
       <div class="skill-subcategory">
@@ -799,7 +1077,7 @@ I have developed expertise across multiple programming languages and technologie
         <h4>Visualization & Interface</h4>
         <span class="skill-card-count">7 tools</span>
       </div>
-      <div class="skill-card-toggle">▼</div>
+      <div class="skill-card-toggle">+</div>
     </div>
     <div class="skill-card-content">
       <div class="skill-subcategory">
@@ -862,7 +1140,7 @@ I have developed expertise across multiple programming languages and technologie
         <h4>Financial Technology</h4>
         <span class="skill-card-count">8 specializations</span>
       </div>
-      <div class="skill-card-toggle">▼</div>
+      <div class="skill-card-toggle">+</div>
     </div>
     <div class="skill-card-content">
       <div class="skill-subcategory">
@@ -930,7 +1208,7 @@ I have developed expertise across multiple programming languages and technologie
         <h4>Supporting Tools</h4>
         <span class="skill-card-count">12+ tools</span>
       </div>
-      <div class="skill-card-toggle">▼</div>
+      <div class="skill-card-toggle">+</div>
     </div>
     <div class="skill-card-content">
       <div class="skill-subcategory">
@@ -1008,7 +1286,7 @@ I have developed expertise across multiple programming languages and technologie
         <h4>Specialized Skills</h4>
         <span class="skill-card-count">6 competencies</span>
       </div>
-      <div class="skill-card-toggle">▼</div>
+      <div class="skill-card-toggle">+</div>
     </div>
     <div class="skill-card-content">
       <div class="skill-subcategory">
