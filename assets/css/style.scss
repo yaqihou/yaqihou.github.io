@@ -1226,6 +1226,15 @@ details {
     border-color: var(--gray-300);
   }
   
+  &[open] {
+    border-left: 4px solid var(--color-primary);
+    box-shadow: var(--shadow-md);
+    
+    .details {
+      animation: slideDown 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    }
+  }
+  
   summary {
     background: var(--gray-100);
     padding: var(--space-5) var(--space-16) var(--space-5) var(--space-6);
@@ -1234,14 +1243,43 @@ details {
     color: var(--text-primary);
     list-style: none;
     position: relative;
-    transition: background var(--duration-fast) var(--easing-smooth);
+    transition: all var(--duration-fast) var(--easing-smooth);
+    outline: none;
+    border: none;
+    
+    &:focus {
+      outline: none !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+    
+    &:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
     
     &:hover {
       background: var(--gray-200);
+      color: var(--color-primary);
+    }
+    
+    &:active {
+      background: var(--gray-300);
     }
     
     &::-webkit-details-marker {
       display: none;
+    }
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: transparent;
+      transition: background var(--duration-normal) var(--easing-smooth);
     }
     
     &::after {
@@ -1250,21 +1288,56 @@ details {
       right: var(--space-6);
       top: 50%;
       transform: translateY(-50%);
-      transition: transform var(--duration-normal) var(--easing-smooth);
+      transition: all var(--duration-normal) cubic-bezier(0.25, 0.46, 0.45, 0.94);
       color: var(--text-muted);
       width: var(--space-6);
       text-align: center;
+      font-size: var(--font-size-sm);
     }
   }
   
-  &[open] summary::after {
-    transform: translateY(-50%) rotate(90deg);
+  &[open] summary {
+    background: linear-gradient(135deg, var(--gray-100) 0%, var(--gray-50) 100%);
+    border-bottom: 1px solid var(--gray-300);
+    
+    &::before {
+      background: var(--color-primary);
+    }
+    
+    &::after {
+      transform: translateY(-50%) rotate(90deg);
+      color: var(--color-primary);
+    }
   }
   
   .details {
     padding: var(--space-8);
     background: var(--bg-primary);
-    border-left: 3px solid var(--color-primary);
+    position: relative;
+    opacity: 0;
+    transform: translateY(-10px);
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: var(--color-primary);
+    }
+  }
+}
+
+// Animation keyframes for smooth details expansion
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

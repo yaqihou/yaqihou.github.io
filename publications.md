@@ -54,6 +54,10 @@ mathjax: true
 
 {: reversed="reversed"}
 
+1. **Toward an Automated-Algebra framework for Quantum Matter with Quantum Virial Expansion and beyond** *(Invited Talk)*<br/>
+  Y. Hou, S-INT Seminar, University of Washington, *Sep 22, 2022*<br/>
+  [Event Details](https://phys.washington.edu/events/2022-09-22/s-int-seminar-toward-automated-algebra-framework-quantum-matter-quantum-virial)
+
 1. **From few to many: thermodynamics with up to seventh-order virial coefficients**<br/>
   Y. Hou and J. E. Drut, APS April Meeting 2021 S13.00007, *Apr 19, 2021*
 

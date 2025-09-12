@@ -30,7 +30,7 @@ description: Yaqi Hou - Quantitative Analytics Specialist & Computational Physic
         </div>
         <div class="card-content">
           <h3 class="card-title">About Me</h3>
-          <p class="card-description">Learn about my background, education, and technical expertise</p>
+          <p class="card-description">Learn about my background, education, and academic journey</p>
           <a href="/aboutme" class="card-link">Learn more</a>
         </div>
       </div>
@@ -44,9 +44,9 @@ description: Yaqi Hou - Quantitative Analytics Specialist & Computational Physic
           </svg>
         </div>
         <div class="card-content">
-          <h3 class="card-title">Research</h3>
-          <p class="card-description">Explore my work in computational physics and quantum many-body systems</p>
-          <a href="/research" class="card-link">View research</a>
+          <h3 class="card-title">Professional Experience</h3>
+          <p class="card-description">Quantitative finance expertise, technical skills, and industry applications</p>
+          <a href="/professional" class="card-link">View experience</a>
         </div>
       </div>
 
@@ -61,9 +61,9 @@ description: Yaqi Hou - Quantitative Analytics Specialist & Computational Physic
           </svg>
         </div>
         <div class="card-content">
-          <h3 class="card-title">Publications</h3>
-          <p class="card-description">Browse my academic publications and research contributions</p>
-          <a href="/publications" class="card-link">View publications</a>
+          <h3 class="card-title">Academic</h3>
+          <p class="card-description">Academic research in quantum physics and computational methods with publications</p>
+          <a href="/research" class="card-link">View research</a>
         </div>
       </div>
     </div>
