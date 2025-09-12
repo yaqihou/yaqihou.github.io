@@ -466,10 +466,24 @@ li a {
   text-decoration: none;
   outline: none; // Remove browser focus outline
   border: none;  // Remove any default border
+  overflow: hidden; // Enable shimmer effect
   
   &:focus {
     outline: none;
     box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+  }
+  
+  // Shimmer effect - adaptive to background
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.3), transparent);
+    transition: left 0.5s ease;
+    z-index: 1;
   }
   
   &::after {
@@ -485,11 +499,21 @@ li a {
     transform: translateX(-50%);
   }
   
+  // Ensure nav text appears above shimmer effect
+  .nav-text {
+    position: relative;
+    z-index: 2;
+  }
+  
   &:hover {
     color: var(--color-primary);
     background: var(--gray-100);
     transform: translateY(-1px);
     text-decoration: none;
+    
+    &::before {
+      left: 100%; // Trigger shimmer animation
+    }
     
     &::after {
       width: 80%;
@@ -519,6 +543,11 @@ li a {
   body.has-hero & {
     color: rgba(255, 255, 255, 0.8);  // Light color for hero section
     
+    // White shimmer for hero section
+    &::before {
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    }
+    
     &::after {
       background: rgba(255, 255, 255, 0.9);
     }
@@ -528,6 +557,10 @@ li a {
       background: rgba(255, 255, 255, 0.1);
       transform: translateY(-1px);
       text-decoration: none;
+      
+      &::before {
+        left: 100%; // Trigger shimmer on hero section
+      }
       
       &::after {
         background: rgba(255, 255, 255, 1);
@@ -557,6 +590,11 @@ li a {
   body.has-hero .navbar.scrolled & {
     color: var(--text-primary);  // Use primary black when scrolled
     
+    // Blue shimmer when scrolled (back to regular nav)
+    &::before {
+      background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.3), transparent);
+    }
+    
     &::after {
       background: var(--color-primary);
     }
@@ -566,6 +604,10 @@ li a {
       background: var(--gray-100);
       transform: translateY(-1px);
       text-decoration: none;
+      
+      &::before {
+        left: 100%; // Trigger shimmer when scrolled
+      }
       
       &::after {
         background: var(--color-primary);
@@ -879,6 +921,7 @@ li a {
     border-color: rgba(255, 255, 255, 0.5);
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
+    color: var(--text-inverse) !important; // Keep text white on hover
   }
 }
 
@@ -891,6 +934,7 @@ li a {
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.6);
     transform: translateY(-2px);
+    color: var(--text-inverse) !important; // Keep text white on hover
   }
 }
 
