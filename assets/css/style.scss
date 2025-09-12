@@ -227,8 +227,20 @@ a {
   font-weight: 500;
   transition: all var(--duration-fast) var(--easing-smooth);
   
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+  }
+  
   &:hover {
     color: var(--color-primary-dark);
+  }
+  
+  &:active {
+    color: var(--color-primary-dark);
+    text-decoration: none;
   }
 }
 
@@ -256,9 +268,25 @@ li a {
     transition: width var(--duration-normal) var(--easing-smooth);
   }
   
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+  }
+  
   &:hover {
     color: var(--color-primary-dark);
     transform: translateY(-1px);
+    text-decoration: none;
+    
+    &::before {
+      width: 100%;
+    }
+  }
+  
+  &:active {
+    color: var(--color-primary-dark);
     text-decoration: none;
     
     &::before {
@@ -1200,7 +1228,7 @@ details {
   
   summary {
     background: var(--gray-100);
-    padding: var(--space-5) var(--space-6);
+    padding: var(--space-5) var(--space-16) var(--space-5) var(--space-6);
     cursor: pointer;
     font-weight: 600;
     color: var(--text-primary);
@@ -1224,6 +1252,8 @@ details {
       transform: translateY(-50%);
       transition: transform var(--duration-normal) var(--easing-smooth);
       color: var(--text-muted);
+      width: var(--space-6);
+      text-align: center;
     }
   }
   
