@@ -473,19 +473,7 @@ li a {
     box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
   }
   
-  // Shimmer effect - adaptive to background
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.3), transparent);
-    transition: left 0.5s ease;
-    z-index: 1;
-  }
-  
+  // Bottom underline effect
   &::after {
     content: '';
     position: absolute;
@@ -498,23 +486,38 @@ li a {
     transition: all var(--duration-normal) var(--easing-smooth);
     transform: translateX(-50%);
   }
-  
-  // Ensure nav text appears above shimmer effect
+
+  // Nav text with shimmer effect for non-hero pages
   .nav-text {
     position: relative;
     z-index: 2;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+      transition: left 0.5s ease, opacity 0.1s ease-in-out;
+      opacity: 0;
+    }
   }
-  
+
   &:hover {
     color: var(--color-primary);
     background: var(--gray-100);
+    // background: var(--gray-800);
     transform: translateY(-1px);
     text-decoration: none;
-    
-    &::before {
-      left: 100%; // Trigger shimmer animation
+
+    .nav-text::before {
+      left: 110%; // Trigger shimmer animation on text only
+      opacity: 1; // Make shimmer visible during animation
     }
-    
+
     &::after {
       width: 80%;
     }
@@ -542,26 +545,42 @@ li a {
   // Special styling for homepage with hero
   body.has-hero & {
     color: rgba(255, 255, 255, 0.8);  // Light color for hero section
-    
-    // White shimmer for hero section
+    overflow: hidden; // Enable full shimmer effect for hero
+
+    // Full element white shimmer for hero section
     &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
       background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+      transition: left 0.5s ease;
+      z-index: 1;
     }
-    
+
     &::after {
       background: rgba(255, 255, 255, 0.9);
     }
-    
+
+    // Remove nav-text shimmer on hero, use full element shimmer
+    .nav-text {
+      &::before {
+        display: none;
+      }
+    }
+
     &:hover {
       color: rgba(255, 255, 255, 1);
       background: rgba(255, 255, 255, 0.1);
       transform: translateY(-1px);
       text-decoration: none;
-      
+
       &::before {
-        left: 100%; // Trigger shimmer on hero section
+        left: 110%; // Trigger full shimmer on hero section
       }
-      
+
       &::after {
         background: rgba(255, 255, 255, 1);
       }
@@ -589,26 +608,38 @@ li a {
   
   body.has-hero .navbar.scrolled & {
     color: var(--text-primary);  // Use primary black when scrolled
-    
-    // Blue shimmer when scrolled (back to regular nav)
+    overflow: hidden; // Enable shimmer effect
+
+    // Remove full element shimmer, use text shimmer when scrolled
     &::before {
-      background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.3), transparent);
+      display: none;
     }
-    
+
     &::after {
       background: var(--color-primary);
     }
-    
+
+    // Restore nav-text shimmer when scrolled
+    .nav-text {
+      &::before {
+        display: block;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+        opacity: 0;
+        transition: left 0.5s ease, opacity 0.5s ease;
+      }
+    }
+
     &:hover {
       color: var(--color-primary);
       background: var(--gray-100);
       transform: translateY(-1px);
       text-decoration: none;
-      
-      &::before {
-        left: 100%; // Trigger shimmer when scrolled
+
+      .nav-text::before {
+        left: 100%; // Trigger text shimmer when scrolled
+        opacity: 1; // Make shimmer visible during animation
       }
-      
+
       &::after {
         background: var(--color-primary);
       }

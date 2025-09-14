@@ -142,8 +142,10 @@ Today, as a **Quantitative Analytics Specialist at Wells Fargo**, I apply the sa
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-3) var(--space-6);
-  background: var(--color-primary);
-  color: white !important;
+  <!-- background: var(--color-primary); -->
+  <!-- color: white !important; -->
+  background: var(--gray-100);
+  color: var(--color-primary) !important;
   text-decoration: none !important;
   border-radius: var(--border-radius-lg);
   font-weight: 500;
