@@ -18,7 +18,7 @@ description: Yaqi Hou - Quantitative Analytics Specialist & Computational Physic
   </section>
 
   <section class="quick-links">
-    <h2 class="section-title">Explore</h2>
+    <h2 class="section-title"><span>Explore</span></h2>
     
     <div class="links-grid">
       <div class="link-card">
@@ -70,7 +70,7 @@ description: Yaqi Hou - Quantitative Analytics Specialist & Computational Physic
   </section>
 
   <section class="external-links">
-    <h2 class="section-title">Connect</h2>
+    <h2 class="section-title"><span>Connect</span></h2>
     
     <div class="external-grid">
       <div class="external-category">
