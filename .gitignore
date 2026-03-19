@@ -5,3 +5,8 @@ _site
 vendor
 /.emacsbackup/
 **/.emacsbackup/
+.claude/
+.agents/
+docs-dev/
+CLAUDE.md
+skills-lock.json

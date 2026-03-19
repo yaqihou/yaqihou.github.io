@@ -184,28 +184,33 @@
                 });
             });
             
-            // Navbar scroll behavior
+            // Navbar scroll behavior with throttling
             const navbar = document.getElementById('navbar');
             let lastScrollY = window.scrollY;
+            let scrollRAF = null;
             
             window.addEventListener('scroll', function() {
-                const currentScrollY = window.scrollY;
-                
-                if (currentScrollY > 100) {
-                    navbar.classList.add('scrolled');
-                } else {
-                    navbar.classList.remove('scrolled');
-                }
-                
-                // Hide/show navbar on scroll
-                if (currentScrollY > lastScrollY && currentScrollY > 200) {
-                    navbar.classList.add('hidden');
-                } else {
-                    navbar.classList.remove('hidden');
-                }
-                
-                lastScrollY = currentScrollY;
-            });
+                if (scrollRAF) return;
+                scrollRAF = requestAnimationFrame(function() {
+                    const currentScrollY = window.scrollY;
+                    
+                    if (currentScrollY > 100) {
+                        navbar.classList.add('scrolled');
+                    } else {
+                        navbar.classList.remove('scrolled');
+                    }
+                    
+                    // Hide/show navbar on scroll
+                    if (currentScrollY > lastScrollY && currentScrollY > 200) {
+                        navbar.classList.add('hidden');
+                    } else {
+                        navbar.classList.remove('hidden');
+                    }
+                    
+                    lastScrollY = currentScrollY;
+                    scrollRAF = null;
+                });
+            }, { passive: true });
             
             // Smooth scroll for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -231,6 +236,8 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('animate-in');
+                        // Unobserve after animation to prevent memory leak
+                        observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
