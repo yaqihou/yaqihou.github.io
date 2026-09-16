@@ -51,9 +51,9 @@ removed when the server stops. No Python packages are needed.
 ## Publish
 
 GitHub Pages publishes these files directly from the repository root. The live
-repository settings were verified through the GitHub API on September 15, 2026:
+repository settings were verified through the GitHub API on September 16, 2026:
 
-- Source: **Deploy from a branch**, **master**, **/ (root)**.
+- Source: **Deploy from a branch**, **main**, **/ (root)**.
 - Custom domain: **yaqihou.com**.
 - **Enforce HTTPS**: enabled.
 
@@ -63,7 +63,7 @@ No custom build workflow or Python runtime is needed on GitHub Pages. See
 [GitHub's static-file publishing documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 To deploy, commit the migrated pages, assets, redirect directories, `.nojekyll`,
-and removal of the former build sources, then push to `master`. Local untracked
+and removal of the former build sources, then push to `main`. Local untracked
 files are not deployed until committed and pushed. Review the selected files:
 the preview's public-file allowlist only controls the local preview, not GitHub
 Pages. Any additional files committed to the publishing source may be public.

@@ -19,7 +19,7 @@ important information readily accessible without requiring a complete reading.
 
 ## Capabilities and Constraints
 
-Plain HTML, CSS, and JavaScript served by GitHub Pages from master at the domain
+Plain HTML, CSS, and JavaScript served by GitHub Pages from main at the domain
 root. No static site generator, build dependency, or runtime template system.
 Preserve all existing substantive content, public routes, citations and CVs.
 Keep light mode as the default and provide an accessible dark-mode switch with a
