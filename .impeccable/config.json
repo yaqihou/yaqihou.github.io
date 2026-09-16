@@ -1,0 +1,18 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "extreme-negative-tracking",
+        "value": "*",
+        "files": [
+          "professional.html"
+        ],
+        "createdAt": "2026-09-16T00:24:18.672Z",
+        "reason": "Agent verified both flagged headings in browser: h1 73.6px with -1.84px spacing and career h2 36px with -0.9px spacing, both -0.025em matching DESIGN.md. Detector reports -0.09em and -0.14em incorrectly. Preserve reviewed typography; scope this false-positive exception to professional.html."
+      }
+    ]
+  }
+}

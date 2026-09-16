@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-15T17:55:22.164208+00:00",
+  "title": "Design System: Yaqi Hou",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Chalk ground",
+        "tonalRamp": [
+          "oklch(15% 0.00538 297.73)",
+          "oklch(26% 0.00538 297.73)",
+          "oklch(38% 0.00538 297.73)",
+          "oklch(49% 0.00538 297.73)",
+          "oklch(61% 0.00538 297.73)",
+          "oklch(72% 0.00538 297.73)",
+          "oklch(84% 0.00538 297.73)",
+          "oklch(95% 0.00538 297.73)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Pale lilac surface",
+        "tonalRamp": [
+          "oklch(15% 0.01685 304.80)",
+          "oklch(26% 0.01685 304.80)",
+          "oklch(38% 0.01685 304.80)",
+          "oklch(49% 0.01685 304.80)",
+          "oklch(61% 0.01685 304.80)",
+          "oklch(72% 0.01685 304.80)",
+          "oklch(84% 0.01685 304.80)",
+          "oklch(95% 0.01685 304.80)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Plum ink",
+        "tonalRamp": [
+          "oklch(15% 0.03574 303.49)",
+          "oklch(26% 0.03574 303.49)",
+          "oklch(38% 0.03574 303.49)",
+          "oklch(49% 0.03574 303.49)",
+          "oklch(61% 0.03574 303.49)",
+          "oklch(72% 0.03574 303.49)",
+          "oklch(84% 0.03574 303.49)",
+          "oklch(95% 0.03574 303.49)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted plum",
+        "tonalRamp": [
+          "oklch(15% 0.03998 305.75)",
+          "oklch(26% 0.03998 305.75)",
+          "oklch(38% 0.03998 305.75)",
+          "oklch(49% 0.03998 305.75)",
+          "oklch(61% 0.03998 305.75)",
+          "oklch(72% 0.03998 305.75)",
+          "oklch(84% 0.03998 305.75)",
+          "oklch(95% 0.03998 305.75)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Plum accent",
+        "tonalRamp": [
+          "oklch(15% 0.10353 306.52)",
+          "oklch(26% 0.10353 306.52)",
+          "oklch(38% 0.10353 306.52)",
+          "oklch(49% 0.10353 306.52)",
+          "oklch(61% 0.10353 306.52)",
+          "oklch(72% 0.10353 306.52)",
+          "oklch(84% 0.10353 306.52)",
+          "oklch(95% 0.10353 306.52)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Lilac rule",
+        "tonalRamp": [
+          "oklch(15% 0.02510 309.34)",
+          "oklch(26% 0.02510 309.34)",
+          "oklch(38% 0.02510 309.34)",
+          "oklch(49% 0.02510 309.34)",
+          "oklch(61% 0.02510 309.34)",
+          "oklch(72% 0.02510 309.34)",
+          "oklch(84% 0.02510 309.34)",
+          "oklch(95% 0.02510 309.34)"
+        ]
+      },
+      "highlight": {
+        "role": "secondary",
+        "displayName": "Chartreuse highlight",
+        "tonalRamp": [
+          "oklch(15% 0.09292 120.61)",
+          "oklch(26% 0.09292 120.61)",
+          "oklch(38% 0.09292 120.61)",
+          "oklch(49% 0.09292 120.61)",
+          "oklch(61% 0.09292 120.61)",
+          "oklch(72% 0.09292 120.61)",
+          "oklch(84% 0.09292 120.61)",
+          "oklch(95% 0.09292 120.61)"
+        ]
+      },
+      "highlight-ink": {
+        "role": "secondary",
+        "displayName": "Selection ink",
+        "tonalRamp": [
+          "oklch(15% 0.07206 128.05)",
+          "oklch(26% 0.07206 128.05)",
+          "oklch(38% 0.07206 128.05)",
+          "oklch(49% 0.07206 128.05)",
+          "oklch(61% 0.07206 128.05)",
+          "oklch(72% 0.07206 128.05)",
+          "oklch(84% 0.07206 128.05)",
+          "oklch(95% 0.07206 128.05)"
+        ]
+      },
+      "footer-bg": {
+        "role": "neutral",
+        "displayName": "Deep plum ground",
+        "tonalRamp": [
+          "oklch(15% 0.04305 303.79)",
+          "oklch(26% 0.04305 303.79)",
+          "oklch(38% 0.04305 303.79)",
+          "oklch(49% 0.04305 303.79)",
+          "oklch(61% 0.04305 303.79)",
+          "oklch(72% 0.04305 303.79)",
+          "oklch(84% 0.04305 303.79)",
+          "oklch(95% 0.04305 303.79)"
+        ]
+      },
+      "footer-ink": {
+        "role": "neutral",
+        "displayName": "Pale footer ink",
+        "tonalRamp": [
+          "oklch(15% 0.01675 304.80)",
+          "oklch(26% 0.01675 304.80)",
+          "oklch(38% 0.01675 304.80)",
+          "oklch(49% 0.01675 304.80)",
+          "oklch(61% 0.01675 304.80)",
+          "oklch(72% 0.01675 304.80)",
+          "oklch(84% 0.01675 304.80)",
+          "oklch(95% 0.01675 304.80)"
+        ]
+      },
+      "field-line": {
+        "role": "secondary",
+        "displayName": "Optical plum",
+        "tonalRamp": [
+          "oklch(15% 0.10546 307.45)",
+          "oklch(26% 0.10546 307.45)",
+          "oklch(38% 0.10546 307.45)",
+          "oklch(49% 0.10546 307.45)",
+          "oklch(61% 0.10546 307.45)",
+          "oklch(72% 0.10546 307.45)",
+          "oklch(84% 0.10546 307.45)",
+          "oklch(95% 0.10546 307.45)"
+        ]
+      },
+      "field-accent": {
+        "role": "secondary",
+        "displayName": "Optical olive",
+        "tonalRamp": [
+          "oklch(15% 0.11379 105.55)",
+          "oklch(26% 0.11379 105.55)",
+          "oklch(38% 0.11379 105.55)",
+          "oklch(49% 0.11379 105.55)",
+          "oklch(61% 0.11379 105.55)",
+          "oklch(72% 0.11379 105.55)",
+          "oklch(84% 0.11379 105.55)",
+          "oklch(95% 0.11379 105.55)"
+        ]
+      },
+      "dark-bg": {
+        "role": "neutral",
+        "displayName": "Dark mode: Chalk ground",
+        "tonalRamp": [
+          "oklch(15% 0.02597 305.52)",
+          "oklch(26% 0.02597 305.52)",
+          "oklch(38% 0.02597 305.52)",
+          "oklch(49% 0.02597 305.52)",
+          "oklch(61% 0.02597 305.52)",
+          "oklch(72% 0.02597 305.52)",
+          "oklch(84% 0.02597 305.52)",
+          "oklch(95% 0.02597 305.52)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark mode: Pale lilac surface",
+        "tonalRamp": [
+          "oklch(15% 0.03263 305.83)",
+          "oklch(26% 0.03263 305.83)",
+          "oklch(38% 0.03263 305.83)",
+          "oklch(49% 0.03263 305.83)",
+          "oklch(61% 0.03263 305.83)",
+          "oklch(72% 0.03263 305.83)",
+          "oklch(84% 0.03263 305.83)",
+          "oklch(95% 0.03263 305.83)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark mode: Plum ink",
+        "tonalRamp": [
+          "oklch(15% 0.02166 309.56)",
+          "oklch(26% 0.02166 309.56)",
+          "oklch(38% 0.02166 309.56)",
+          "oklch(49% 0.02166 309.56)",
+          "oklch(61% 0.02166 309.56)",
+          "oklch(72% 0.02166 309.56)",
+          "oklch(84% 0.02166 309.56)",
+          "oklch(95% 0.02166 309.56)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark mode: Muted plum",
+        "tonalRamp": [
+          "oklch(15% 0.04376 308.56)",
+          "oklch(26% 0.04376 308.56)",
+          "oklch(38% 0.04376 308.56)",
+          "oklch(49% 0.04376 308.56)",
+          "oklch(61% 0.04376 308.56)",
+          "oklch(72% 0.04376 308.56)",
+          "oklch(84% 0.04376 308.56)",
+          "oklch(95% 0.04376 308.56)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark mode: Plum accent",
+        "tonalRamp": [
+          "oklch(15% 0.07996 306.53)",
+          "oklch(26% 0.07996 306.53)",
+          "oklch(38% 0.07996 306.53)",
+          "oklch(49% 0.07996 306.53)",
+          "oklch(61% 0.07996 306.53)",
+          "oklch(72% 0.07996 306.53)",
+          "oklch(84% 0.07996 306.53)",
+          "oklch(95% 0.07996 306.53)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark mode: Lilac rule",
+        "tonalRamp": [
+          "oklch(15% 0.05109 307.82)",
+          "oklch(26% 0.05109 307.82)",
+          "oklch(38% 0.05109 307.82)",
+          "oklch(49% 0.05109 307.82)",
+          "oklch(61% 0.05109 307.82)",
+          "oklch(72% 0.05109 307.82)",
+          "oklch(84% 0.05109 307.82)",
+          "oklch(95% 0.05109 307.82)"
+        ]
+      },
+      "dark-footer-bg": {
+        "role": "neutral",
+        "displayName": "Dark mode: Deep plum ground",
+        "tonalRamp": [
+          "oklch(15% 0.02063 302.83)",
+          "oklch(26% 0.02063 302.83)",
+          "oklch(38% 0.02063 302.83)",
+          "oklch(49% 0.02063 302.83)",
+          "oklch(61% 0.02063 302.83)",
+          "oklch(72% 0.02063 302.83)",
+          "oklch(84% 0.02063 302.83)",
+          "oklch(95% 0.02063 302.83)"
+        ]
+      },
+      "dark-field-line": {
+        "role": "secondary",
+        "displayName": "Dark mode: Optical plum",
+        "tonalRamp": [
+          "oklch(15% 0.08997 307.43)",
+          "oklch(26% 0.08997 307.43)",
+          "oklch(38% 0.08997 307.43)",
+          "oklch(49% 0.08997 307.43)",
+          "oklch(61% 0.08997 307.43)",
+          "oklch(72% 0.08997 307.43)",
+          "oklch(84% 0.08997 307.43)",
+          "oklch(95% 0.08997 307.43)"
+        ]
+      },
+      "dark-field-accent": {
+        "role": "secondary",
+        "displayName": "Dark mode: Optical olive",
+        "tonalRamp": [
+          "oklch(15% 0.08075 121.92)",
+          "oklch(26% 0.08075 121.92)",
+          "oklch(38% 0.08075 121.92)",
+          "oklch(49% 0.08075 121.92)",
+          "oklch(61% 0.08075 121.92)",
+          "oklch(72% 0.08075 121.92)",
+          "oklch(84% 0.08075 121.92)",
+          "oklch(95% 0.08075 121.92)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Global identity and page-heading base; responsive contexts override size."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Global section-heading base."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Global tertiary-heading base."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Long-form reading text."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Main navigation and compact destination labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Captions and supporting metadata."
+      },
+      "disclosure-title": {
+        "displayName": "Disclosure Title",
+        "purpose": "Native disclosure headings."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Disclosure rotation and theme entry easing."
+      },
+      {
+        "name": "disclosure-turn",
+        "value": "220ms",
+        "purpose": "Native disclosure chevron transition."
+      },
+      {
+        "name": "theme-fallback",
+        "value": "380ms ease",
+        "purpose": "Fallback color transitions."
+      },
+      {
+        "name": "theme-exit",
+        "value": "420ms ease",
+        "purpose": "Old view fades away."
+      },
+      {
+        "name": "theme-entry",
+        "value": "520ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "New view fades in from translateY(8px)."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "outer-gutters",
+        "value": "1320px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A prominent native link to professional work.",
+      "html": "<a class=\"ds-primary\" href=\"/professional.html\">Professional Experience <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-primary { display: inline-flex; align-items: center; justify-content: center; gap: 20px; background: var(--ink, #2e2639); color: var(--bg, #f8f7fb); padding: 13px 21px; border-radius: 6px; text-decoration: none; min-height: 48px; font-size: 14px; line-height: 1.75; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif); } .ds-primary:hover { background: var(--accent, #654583); color: var(--bg, #f8f7fb); } .ds-primary:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; }"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "A secondary destination with a stroked directional arrow.",
+      "html": "<a class=\"ds-text\" href=\"/research.html\">Research <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-text { display: inline-flex; align-items: center; gap: 12px; font-size: 15px; line-height: 1.75; text-decoration: none; text-underline-offset: .25em; text-decoration-thickness: 1px; padding: 10px 0; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-text:hover { color: var(--accent, #654583); text-decoration: underline; } .ds-text:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; }"
+    },
+    {
+      "name": "Theme control",
+      "kind": "button",
+      "refersTo": "theme-control",
+      "description": "Theme-switch appearance; application JavaScript owns preference changes and pressed state.",
+      "html": "<button class=\"ds-theme\" type=\"button\" aria-label=\"Switch to dark mode\" aria-pressed=\"false\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 14.1A8 8 0 0 1 9.9 4 8 8 0 1 0 20 14.1Z\"/></svg><span>Dark</span></button>",
+      "css": ".ds-theme { min-height: 44px; border: 1px solid var(--line, #d7cedf); background: transparent; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 14px; border-radius: 24px; font-size: 13px; line-height: 1.75; cursor: pointer; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-theme:hover { background: var(--surface, #eee9f5); border-color: var(--muted, #665b73); } .ds-theme:disabled { cursor: wait; opacity: .6; } .ds-theme:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; }"
+    },
+    {
+      "name": "Bulk disclosure control",
+      "kind": "button",
+      "refersTo": "disclosure-control",
+      "description": "The expand-all control; application JavaScript changes all details and its label.",
+      "html": "<button class=\"ds-expand\" type=\"button\">Expand all details</button>",
+      "css": ".ds-expand { display: block; background: var(--surface, #eee9f5); border: 0; border-radius: 5px; padding: 10px 14px; font-size: 12px; line-height: 1.75; min-height: 44px; cursor: pointer; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-expand:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; }"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Desktop native navigation with the current destination underlined.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/\" aria-current=\"page\">Home</a><a href=\"/professional.html\">Work</a><a href=\"/research.html\">Research</a><a href=\"/publications.html\">Publications</a><a href=\"/aboutme.html\">About</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 28px; font-size: 14px; line-height: 1.75; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-nav a { position: relative; padding: 10px 0; color: inherit; text-decoration: none; } .ds-nav a:hover { color: var(--accent, #654583); } .ds-nav a[aria-current=\"page\"]::after { content: \"\"; height: 2px; background: var(--accent, #654583); position: absolute; bottom: 3px; left: 0; right: 0; } .ds-nav a:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; }"
+    },
+    {
+      "name": "Reading disclosure",
+      "kind": "custom",
+      "refersTo": "disclosure",
+      "description": "A working native disclosure with a rotating CSS chevron.",
+      "html": "<details class=\"ds-details\"><summary><span class=\"ds-title\">Core Development &amp; Architecture</span></summary><div class=\"ds-content\">Python, C++, SQL, Fortran, and JavaScript.</div></details>",
+      "css": ".ds-details { border-top: 1px solid var(--line, #d7cedf); border-bottom: 1px solid var(--line, #d7cedf); font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-details summary { list-style: none; display: flex; align-items: center; gap: 20px; padding: 23px 4px; cursor: pointer; line-height: 1.5; } .ds-details summary::-webkit-details-marker { display: none; } .ds-title { font: 500 24px/1.3 var(--font-display, Afacad, \"Trebuchet MS\", sans-serif); } .ds-details summary::after { content: \"\"; width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); margin: 0 5px 4px auto; flex-shrink: 0; transition: transform 220ms var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-details[open] > summary::after { transform: rotate(225deg); margin-bottom: -3px; } .ds-details summary:hover { color: var(--accent, #654583); } .ds-details summary:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; } .ds-content { padding: 0 4px 24px; font-size: 17px; line-height: 1.75; } @media (prefers-reduced-motion: reduce) { .ds-details summary::after { transition-duration: .01ms; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A personal field study",
+    "overview": "The site pairs a cursor-reactive field drawing with the directness of a personal introduction. Pale lilac grounds, plum lettering, open sections, and humanist display type give technical work a thoughtful, approachable setting. Reading pages carry the same materials into long-form content.\n\nThe presentation is spacious at the page level and compact within lists. Headings establish hierarchy; thin rules separate related entries; native disclosures let readers choose their depth. This records the finished plain HTML, CSS, and JavaScript implementation, with no approved visual comp. The source of truth is `assets/css/style.css`, with interaction behavior in `assets/js/theme.js` and `assets/js/navigation.js`.",
+    "keyCharacteristics": [
+      "Plum and pale lilac, with chartreuse reserved for selection and optical accents.",
+      "Afacad display lettering paired with Public Sans reading text.",
+      "Continuous sections, open rows, and fine dividing lines.",
+      "A field drawing with local spring-based thread interaction, gently moving on its own and hidden on mobile.",
+      "Light by default, with a persistent dark option and native disclosures.",
+      "Semantic career milestones and visible tool-to-application lanes; static research diagrams explain relationships using the same plum linework."
+    ],
+    "rules": [
+      {
+        "name": "The Paired Theme Rule",
+        "body": "Apply colors through semantic CSS variables so text, boundaries, surfaces, and the drawing change together when the visitor switches themes.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Afacad for identity and reading hierarchy, and Public Sans for body text, navigation, and supporting information.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Surface Rule",
+        "body": "Separate reading groups with spacing, tonal bands, or fine rules; preserve the flat surfaces used by the finished site.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use semantic palette variables and verify both themes when adding a surface.",
+      "**Do** use the self-hosted Afacad and Public Sans roles for a consistent hierarchy.",
+      "**Do** preserve open reading rows, readable line lengths, and the mobile single-column flow.",
+      "**Do** retain native links, disclosures, visible focus, and reduced-motion alternatives."
+    ],
+    "donts": [
+      "**Don't** turn the personal homepage into metric tiles or a dashboard.",
+      "**Don't** make decorative artwork carry factual claims or reading instructions.",
+      "**Don't** replace working disclosure and navigation semantics with decorative interactions.",
+      "**Don't** force motion or a dark default over the visitor's accessible reading experience."
+    ]
+  }
+}

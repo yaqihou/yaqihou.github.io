@@ -10,3 +10,8 @@ vendor
 docs-dev/
 CLAUDE.md
 skills-lock.json
+__pycache__/
+/.impeccable/review/
+/.impeccable/surfaces/
+/.impeccable/mocks/
+/.impeccable/build/
