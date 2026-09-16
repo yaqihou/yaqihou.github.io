@@ -9,7 +9,8 @@ package installation is required.
 - `index.html`: homepage.
 - `aboutme.html`, `professional.html`, `research.html`, `publications.html`: detail pages.
 - `assets/css/style.css`: light/dark tokens, typography, layouts, and responsive styles.
-- `assets/js/navigation.js`: navigation, theme switching, native disclosure helpers, and the cursor-reactive field.
+- `assets/js/navigation.js`: navigation, theme switching, and native disclosure helpers.
+- `assets/js/field.js`: homepage-only thread animation and spring interaction.
 - `assets/js/theme.js`: applies the saved theme before the first paint.
 - `assets/fonts/`: self-hosted Afacad and Public Sans, with licenses under `licenses/`.
 - `assets/img/`, `assets/images/`, and `CV/`: images and downloadable CVs.

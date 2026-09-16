@@ -424,7 +424,7 @@
   ],
   "narrative": {
     "northStar": "A personal field study",
-    "overview": "The site pairs a cursor-reactive field drawing with the directness of a personal introduction. Pale lilac grounds, plum lettering, open sections, and humanist display type give technical work a thoughtful, approachable setting. Reading pages carry the same materials into long-form content.\n\nThe presentation is spacious at the page level and compact within lists. Headings establish hierarchy; thin rules separate related entries; native disclosures let readers choose their depth. This records the finished plain HTML, CSS, and JavaScript implementation, with no approved visual comp. The source of truth is `assets/css/style.css`, with interaction behavior in `assets/js/theme.js` and `assets/js/navigation.js`.",
+    "overview": "The site pairs a cursor-reactive field drawing with the directness of a personal introduction. Pale lilac grounds, plum lettering, open sections, and humanist display type give technical work a thoughtful, approachable setting. Reading pages carry the same materials into long-form content.\n\nThe presentation is spacious at the page level and compact within lists. Headings establish hierarchy; thin rules separate related entries; native disclosures let readers choose their depth. This records the finished plain HTML, CSS, and JavaScript implementation, with no approved visual comp. The source of truth is `assets/css/style.css`, with interaction behavior in `assets/js/theme.js`, `assets/js/navigation.js`, and the homepage-only `assets/js/field.js`.",
     "keyCharacteristics": [
       "Plum and pale lilac, with chartreuse reserved for selection and optical accents.",
       "Afacad display lettering paired with Public Sans reading text.",

@@ -112,7 +112,7 @@ components:
 
 The site pairs a cursor-reactive field drawing with the directness of a personal introduction. Pale lilac grounds, plum lettering, open sections, and humanist display type give technical work a thoughtful, approachable setting. Reading pages carry the same materials into long-form content.
 
-The presentation is spacious at the page level and compact within lists. Headings establish hierarchy; thin rules separate related entries; native disclosures let readers choose their depth. This records the finished plain HTML, CSS, and JavaScript implementation, with no approved visual comp. The source of truth is `assets/css/style.css`, with interaction behavior in `assets/js/theme.js` and `assets/js/navigation.js`.
+The presentation is spacious at the page level and compact within lists. Headings establish hierarchy; thin rules separate related entries; native disclosures let readers choose their depth. This records the finished plain HTML, CSS, and JavaScript implementation, with no approved visual comp. The source of truth is `assets/css/style.css`, with interaction behavior in `assets/js/theme.js`, `assets/js/navigation.js`, and the homepage-only `assets/js/field.js`.
 
 **Key Characteristics:**
 
@@ -215,7 +215,9 @@ The pale, compact expansion control toggles all article disclosures. Following a
 The home artwork contains 46 closed paths in plum and olive. Cached harmonics
 keep the threads moving gently on their own, with a slow phase drift. Each strand
 has 210 spring-connected points: restoring stiffness 55/s², neighboring tension
-450/s², and damping 10/s. Integration uses substeps no longer than 1/120 second.
+450/s², and damping 10/s. Integration uses substeps no longer than 1/120 second. Settled spring offsets
+sleep below 0.001px displacement and 0.01px/s velocity while ambient drift
+continues. Cursor contact rejects distant points before calculating distances.
 The cursor contacts a compact region (6.5% of the shorter canvas dimension),
 pushing across each strand's tangent and transferring some stroke momentum.
 Swept contact catches fast strokes; tension propagates each bend, and damping
