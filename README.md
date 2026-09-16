@@ -11,6 +11,7 @@ package installation is required.
 - `assets/css/style.css`: light/dark tokens, typography, layouts, and responsive styles.
 - `assets/js/navigation.js`: navigation, theme switching, and native disclosure helpers.
 - `assets/js/field.js`: homepage-only thread animation and spring interaction.
+- `assets/js/research.js`: research-only diagram motion during hover or keyboard focus.
 - `assets/js/theme.js`: applies the saved theme before the first paint.
 - `assets/fonts/`: self-hosted Afacad and Public Sans, with licenses under `licenses/`.
 - `assets/img/`, `assets/images/`, and `CV/`: images and downloadable CVs.
@@ -106,14 +107,18 @@ surface released. The artwork has no caption or pause label.
 Same-origin page navigation uses a short native cross-fade in supporting browsers;
 ordinary navigation remains the fallback. Reduced motion disables the page fade.
 Links have small directional-arrow and underline feedback. Detail-page headings
-have a short rule accent; they remain ordinary headings rather than controls.
+have a short, inset rule accent. On desktop, heading scale and sidebar title
+opacity, position, and size follow scroll progress continuously in both directions.
+Mobile keeps the ordinary contents label; reduced motion keeps a static handoff.
 
 Detail pages have a table of contents and native `details` elements. The research
 and professional pages also have an expand/collapse-all control. The full original
-work examples and technical skills remain in the HTML; no client-side fetching or
+work examples and technical skills are consolidated into the six application
+rows and remain in the HTML; no client-side fetching or
 template rendering is used. The Work page opens with dated career milestones and
 maps tools to applications without requiring expansion. Its optional disclosures
-hold the longer examples. The Research page has a conceptual methods diagram;
+hold the longer examples. The Research page has centered conceptual diagrams linking into the article, with
+looping hover and keyboard-focus motion;
 all publication and presentation entries are maintained only in `publications.html`.
 The old Research publication/presentation anchors retain links to that page.
 

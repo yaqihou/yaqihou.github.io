@@ -232,6 +232,20 @@ The concept is abstract, inspired by overlapping curves and interference. It is 
 a physical simulation or data plot. The canvas is decorative and hidden from the
 accessibility tree; no factual information or action depends on it.
 
+### Fine details
+
+The current Work timeline dot emits one thin plum ring every 5.5 seconds, with
+most of each cycle spent at rest. The dot stays solid and the ring uses only
+transform and opacity. An intersection observer pauses it offscreen; hidden tabs
+pause it too. Reduced motion and print remove the ring, preserving the dot and
+Current role text. No other timeline milestone pulses.
+
+Theme icons turn 12 degrees on pointer hover or keyboard focus (240ms), and the
+Back to top arrow moves upward by 3px (200ms). Touch devices do not inherit sticky
+hover effects. Reduced motion preserves colors and focus outlines without these
+spatial movements. Timeline milestone headings and nodes also take the accent color on hover or
+focus within their existing links; the current-role ripple remains the sole loop.
+
 ### Navigation and small motion
 
 Supporting browsers use native same-origin document transitions with a 160ms exit
@@ -241,9 +255,21 @@ slight vertical movement. Reduced motion disables navigation transitions.
 Navigation underlines extend over 180ms; link arrows move 3px toward their destination
 on hover or keyboard focus. Buttons transition their existing colors over 160ms.
 Detail-page headings retain normal heading semantics and gain a short plum rule
-accent, with a 420ms entrance and a small extension on hover. Reduced motion removes
-the entrance and spatial link effects. No scroll-reveal or content-hiding choreography
-is used.
+accent (40px wide, inset 16px from the heading bottom), with a 420ms entrance and a
+small extension on hover. The accent is separated from the Research panel by
+28px of open space. The former full-width heading border is removed.
+
+Above 720px, the main heading gently scales down and fades as it passes under
+the sticky navigation. The sidebar title's opacity, 24px translation, and scale
+(1.18 to 1) follow the final 180px of the contents column's approach to its sticky
+position. This is continuous scroll progress, not a timed transition triggered
+at a threshold; stopping or reversing scroll stops or reverses the presentation.
+The compact title links to the original heading. A reserved grid cell prevents
+layout jumps. A passive scroll listener coalesces updates into one animation
+frame, reads layout before writes, and schedules no idle loop. Resize, font load,
+and disclosure changes refresh the positions. On mobile, the ordinary On this
+page label remains. Reduced motion changes the sidebar label without movement
+and leaves the main heading untransformed. Article content always remains visible.
 
 ### Career timeline and explanatory diagrams
 
@@ -254,15 +280,28 @@ ordered by start date and evenly spaced, rather than plotted on a duration axis.
 At 720px and below, the rule becomes vertical and entries stack in reading order.
 
 The technology map uses six open, border-separated lanes. A small stroked icon,
-purpose, and visible tool names connect to a business application. Only the longer
-example and experience detail require expansion. Desktop lanes read left to right;
+purpose, and visible tool names connect to a business application. The former
+Technology Stack and Technical Skills Deep Dive sections are consolidated into
+Tools, skills & applications. Each lane preserves its example disclosure and
+adds its matching full-width skill disclosure. Expanded skill groups align a
+subcategory label with rows of names, proficiency levels, and application context;
+at 900px and below, groups and descriptions stack. All original skill entries,
+proficiency labels, counts, and contexts remain, as does the old deep-dive anchor. Desktop lanes read left to right;
 mobile lanes place the application below the tools with a thin connecting rule.
 Work contribution disclosures similarly keep a one-line summary visible.
 
 The Research page's pale-lilac methods diagram connects few-body physics, automated
 algebra, and many-body matter. Its SVGs illustrate particles, algebra, and waves;
-they carry no numerical data. The captions are ordinary HTML text, and the diagrams
-are static in both themes. On mobile, the diagram entries stack vertically. Directional arrows have been removed.
+they carry no numerical data. The figure caption, diagrams, and ordinary HTML labels
+are center-aligned. Each diagram is an anchor to a related reading section and keeps
+its native keyboard focus. Hover or keyboard focus keeps the diagrams moving: particles wander independently
+between bounded random waypoints (1.2–2.6 seconds each) while their bonds follow;
+algebra dashes flow continuously in 900ms cycles; three sine-wave paths travel
+with 1.1-radian phase offsets. Particle and wave motion eases back to rest on exit.
+Offscreen diagrams and hidden tabs stop their loops. The research-only script
+handles the two geometry animations; algebra uses CSS.
+Reduced motion retains color, underline, and focus feedback with static diagrams.
+On mobile, the entries stack vertically. Directional arrows have been removed.
 
 These additions reuse the existing palette, fonts, native disclosures, and focus
 styles. The homepage retains the interference artwork as its main visual moment.

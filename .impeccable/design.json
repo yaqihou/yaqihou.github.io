@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-15T17:55:22.164208+00:00",
+  "generatedAt": "2026-09-16T04:13:00.259445+00:00",
   "title": "Design System: Yaqi Hou",
   "extensions": {
     "colorMeta": {
@@ -355,6 +355,31 @@
         "name": "theme-entry",
         "value": "520ms cubic-bezier(.16, 1, .3, 1)",
         "purpose": "New view fades in from translateY(8px)."
+      },
+      {
+        "name": "current-role-ripple",
+        "value": "5.5s; scale(1) to scale(2.8); opacity 0 to 0.45 to 0",
+        "purpose": "One decorative ring around the labeled current Work milestone, mostly at rest. Paused offscreen and in hidden tabs; absent for reduced motion and print. Explicitly requested by the user."
+      },
+      {
+        "name": "theme-icon-turn",
+        "value": "240ms; rotate(-12deg)",
+        "purpose": "Theme icon hover or keyboard-focus feedback; spatial motion removed for reduced motion."
+      },
+      {
+        "name": "back-top-arrow",
+        "value": "200ms; translateY(-3px)",
+        "purpose": "Upward hover or keyboard-focus cue for Back to top; reduced motion preserves the static upward arrow."
+      },
+      {
+        "name": "research-diagram-feedback",
+        "value": "Continuous while hovered or keyboard-focused; 900ms algebra cycle",
+        "purpose": "Three independently wandering particles with connected bonds, flowing algebra dashes, and sine waves offset by 1.1 radians. Geometry eases to rest on exit; all loops stop offscreen, hidden, or with reduced motion."
+      },
+      {
+        "name": "contents-title-handoff",
+        "value": "Scroll-linked over 180px; translateY(24px to 0); scale(1.18 to 1)",
+        "purpose": "Above 720px, sidebar title position, opacity, and scale follow scroll progress and reverse continuously. The main heading gently shrinks as it exits. Reserved space avoids layout jumps; reduced motion uses static states."
       }
     ],
     "breakpoints": [
@@ -395,7 +420,7 @@
       "refersTo": "theme-control",
       "description": "Theme-switch appearance; application JavaScript owns preference changes and pressed state.",
       "html": "<button class=\"ds-theme\" type=\"button\" aria-label=\"Switch to dark mode\" aria-pressed=\"false\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 14.1A8 8 0 0 1 9.9 4 8 8 0 1 0 20 14.1Z\"/></svg><span>Dark</span></button>",
-      "css": ".ds-theme { min-height: 44px; border: 1px solid var(--line, #d7cedf); background: transparent; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 14px; border-radius: 24px; font-size: 13px; line-height: 1.75; cursor: pointer; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-theme:hover { background: var(--surface, #eee9f5); border-color: var(--muted, #665b73); } .ds-theme:disabled { cursor: wait; opacity: .6; } .ds-theme:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; }"
+      "css": ".ds-theme { min-height: 44px; border: 1px solid var(--line, #d7cedf); background: transparent; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 14px; border-radius: 24px; font-size: 13px; line-height: 1.75; cursor: pointer; font-family: var(--font-body, 'Public Sans', system-ui, sans-serif);color: var(--ink, #2e2639); } .ds-theme:hover { background: var(--surface, #eee9f5); border-color: var(--muted, #665b73); } .ds-theme:disabled { cursor: wait; opacity: .6; } .ds-theme:focus-visible { outline: 3px solid var(--accent, #654583); outline-offset: 5px; } .ds-theme svg { transition: transform 240ms var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-theme:focus-visible svg { transform: rotate(-12deg); } @media (hover: hover) { .ds-theme:hover svg { transform: rotate(-12deg); } } @media (prefers-reduced-motion: reduce) { .ds-theme svg { transform: none !important; transition: none; } }"
     },
     {
       "name": "Bulk disclosure control",
@@ -431,7 +456,7 @@
       "Continuous sections, open rows, and fine dividing lines.",
       "A field drawing with local spring-based thread interaction, gently moving on its own and hidden on mobile.",
       "Light by default, with a persistent dark option and native disclosures.",
-      "Semantic career milestones and visible tool-to-application lanes; static research diagrams explain relationships using the same plum linework."
+      "Semantic career milestones and visible tool-to-application lanes; interactive research diagrams explain relationships using the same plum linework."
     ],
     "rules": [
       {

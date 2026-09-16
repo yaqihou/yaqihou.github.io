@@ -18,7 +18,7 @@ ALIASES = tuple(f"{name}/index.html" for name in (
 ))
 PUBLIC_FILES = PAGES + ALIASES + (
     "feed.xml", "CNAME", ".nojekyll", "assets/css/style.css",
-    "assets/js/navigation.js", "assets/js/theme.js", "assets/js/field.js", "CV/Yaqi-Hou-CV-Academia.pdf",
+    "assets/js/navigation.js", "assets/js/theme.js", "assets/js/field.js", "assets/js/research.js", "CV/Yaqi-Hou-CV-Academia.pdf",
     "CV/Yaqi-Hou-CV-Industry.pdf", "licenses/slate-CC0.txt",
     "licenses/afacad-OFL.txt", "licenses/publicsans-OFL.txt",
 )
