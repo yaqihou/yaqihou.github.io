@@ -21,6 +21,25 @@
         ],
         "createdAt": "2026-09-16T02:56:47.350Z",
         "reason": "User confirmed: explicitly requested a small ripple on the current Work timeline dot as controlled luxury. The decorative ring marks the labeled current role, makes no live-data claim, pauses offscreen and in hidden tabs, and is removed for reduced motion."
+      },
+      {
+        "rule": "extreme-negative-tracking",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-20T05:12:48.059Z",
+        "reason": "Agent verified in browser: flagged headings are 56px/-1.4px, 64px/-1.6px, and 32px/-0.8px, all -0.025em matching DESIGN.md. Detector incorrectly reports -0.12em, -0.10em, and -0.16em. Desktop and mobile review shows legible letterforms."
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "aboutme.html",
+          "index.html"
+        ],
+        "createdAt": "2026-09-20T05:12:48.174Z",
+        "reason": "Agent verified in browser: the flagged .career-timeline li.timeline-current .timeline-node selector matches zero elements on both pages. The detector reads an unused rule from shared CSS; neither page renders this pulse."
       }
     ]
   }

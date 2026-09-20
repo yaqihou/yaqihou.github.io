@@ -113,7 +113,7 @@ Mobile keeps the ordinary contents label; reduced motion keeps a static handoff.
 
 Detail pages have a table of contents and native `details` elements. The research
 and professional pages also have an expand/collapse-all control. The full original
-work examples and technical skills are consolidated into the six application
+work examples and technical skills are consolidated into the seven application
 rows and remain in the HTML; no client-side fetching or
 template rendering is used. The Work page opens with dated career milestones and
 maps tools to applications without requiring expansion. Its optional disclosures
@@ -126,7 +126,16 @@ Career dates and titles were checked against the LinkedIn profile on September 1
 2026. The user confirmed that the SAVP role ran January–September 2026. The current
 role is Lead Quantitative Analytics Specialist, VP, from September 2026. Keep the
 homepage, About page, and career timeline in sync when changing the current role.
-The downloadable PDFs are separate documents and were not revised in this update.
+Professional content was updated in September 2026 using
+`CV/Yaqi-Hou-CV-Quant-ver-20260511.pdf` and the owner's current role description.
+The Work, Home, and About pages reflect the Model and AI Solutions (MAIS) team,
+AI solutions and adoption, advanced analytics, and working-group leadership.
+The owner's current description takes precedence over the older title and team
+name in the May CV. Titles and dates live in the career timeline; the main
+experience section is organized by functional role: Model and AI Solutions,
+Market Risk Analytics, and Commodities Pricing. Each uses a role label, short
+overview, and expandable contributions. The downloadable
+PDFs are separate documents and were not revised or replaced in this update.
 
 The Connect email is intentionally plain text, `yaqi.hou at yahoo.com`, with no
 `mailto:` target. Do not reintroduce the literal address in hidden attributes.
