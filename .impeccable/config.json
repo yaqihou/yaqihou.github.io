@@ -40,6 +40,15 @@
         ],
         "createdAt": "2026-09-20T05:12:48.174Z",
         "reason": "Agent verified in browser: the flagged .career-timeline li.timeline-current .timeline-node selector matches zero elements on both pages. The detector reads an unused rule from shared CSS; neither page renders this pulse."
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "research.html"
+        ],
+        "createdAt": "2026-09-20T16:44:23.294Z",
+        "reason": "Agent verified: detector flags .career-timeline li.timeline-current .timeline-node::before from shared assets/css/style.css, but research.html contains no career-timeline, timeline-current, or timeline-node elements. Its research diagram animates particle positions and waves, not a status pulse. File-scoped false positive; existing design unchanged."
       }
     ]
   }
